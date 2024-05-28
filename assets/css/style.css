@@ -1,7 +1,22 @@
+/* Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&display=swap');
 
-img {
-    background-image: url('../images/pexels-photo-6599020.jpeg') no-repeat center / cover;
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+    width: 1100px;
+    margin: 100px auto;
+
 }
+#yoga {
+    background: url("../images/pexels-photo-6599020.jpeg") no repeat center / cover;
+    position: relative;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
 
 footer{
     background-color: black;
