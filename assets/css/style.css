@@ -21,14 +21,11 @@ p {
     font-family: sans-serif;
     font-size: 1rem;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
+#nav-bar a {
+    float: right;
 }
-li {
-    display: inline;
-    flex-direction: row;
-    justify-content: baseline;
+
+footer {
+    list-style-type: none;
+    position: ;
 }
