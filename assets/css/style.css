@@ -1,50 +1,34 @@
 /* Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&display=swap');
 
-/* Body styles */
+/* Body */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Raleway', sans-serif;
-    color: #000;
-}
-
-/* Header */
-h1 {
-    font-family: 'Raleway', sans-serif;
-}
-    
-/*Yoga Image*/
-#yoga {
     background-image: url('../images/pexels-cottonbro-4056535.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 300px;
-    width: 300px;
+    background-size: cover;
 }
-    
-
-
-
-.nav {
+/* Header */
+header {
     display: flex;
-  
+    align-items: center;
 }
-.nav a {
-    color:black;
-    text-align: right;
-    text-decoration: none;
-    font-size: 1.5rem;
-    background-color: white;
-    
+.logo {
+    font-family: 'Raleway', sans-serif;
+    padding: 0.5rem;
+    margin-left: auto;
 }
-
-/* Media query: */
-
-
-
-
-
-
-
+p {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+li {
+    display: inline;
+    flex-direction: row;
+    justify-content: baseline;
+}
