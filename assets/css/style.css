@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    color: black;
 }
 
 .navigation {
@@ -7,14 +8,21 @@ body {
     margin-top: 6px;
     margin-bottom: 6px;
     width: 900px;
+    display: inline-flex;
+    justify-content: space-between;
 }
 .nav-bar {
     list-style: none;
-    display: inline-block;
+    display: flex;
+    column-gap: 90%;
 }
-.nav-bar>li {
+.nav-bar a {
     text-decoration: none;
     text-transform: inherit;
-    font-size: 10px;
-    font-weight: 400;
+    font-size: 1rem; 
+    color: black;    
+}
+.nav-bar a:hover {
+    color: darkmagenta;
+    cursor: pointer;
 }
