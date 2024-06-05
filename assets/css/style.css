@@ -58,7 +58,7 @@ footer {
     color: white;
     text-align: center;
     position: fixed;
-    height: 1rem;
+    min-height: 100vh;
     display: block;
 }
 
