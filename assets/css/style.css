@@ -11,17 +11,20 @@ body {
     width: 900px;
     display: inline-flex;
     justify-content: space-between;
+    text-align: right; 
 }
 .nav-bar {
     list-style: none;
     display: flex;
     column-gap: 90%;
+    
 }
 .nav-bar a {
     text-decoration: underline;
     text-transform: inherit;
     font-size: 1rem; 
-    color: black;    
+    color: black;
+       
 }
 .nav-bar a:hover {
     color: darkmagenta;
@@ -37,8 +40,7 @@ img {
 }
 /********** Table of Times ***********/
 table {
-    width:70%;
-    table-layout: auto;
+    width:100rem;
 }
 tr {
     display: grid;
@@ -49,8 +51,12 @@ tr, th, td {
 }
 th, td {
     border: 1px solid black;
-    padding: 5px;
-    box-shadow: 0px 20px 25px #0000007a;
+    padding: 8px;
+    box-shadow: 0px 10px 10px #00000017;
+}
+.column {
+    width: 250px;
+    vertical-align: bottom;
 }
 /********** Footer ***********/
 footer {
