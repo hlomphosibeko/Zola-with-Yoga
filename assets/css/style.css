@@ -60,12 +60,17 @@ th, td {
 }
 /********** Footer ***********/
 footer {
-    width: 100%;
-    background-color: black;
-    color: white;
+    background-color: #0000;
     text-align: center;
-    position: fixed;
-    min-height: 100vh;
-    display: block;
+    padding: 1em;
+}
+footer>span {
+    color:beige;
+}
+footer>a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1rem;
 }
 
