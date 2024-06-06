@@ -2,21 +2,23 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: beige;
 }
 /*********** Header *************/
 h1 {
     display: flex;
     font-family: 'Raleway', Open sans, sans-serif;
+    column-gap: 10px;
 }
 img {
-    width: 20%;
+    border-radius: 20px;
 }
 /******** Navigation Bar ********/
 .navigation {
-    margin: 10px;
-    width: 50%;
+    width: 70%;
     justify-content: space-between;
     display: inline-flex;
+    
 }
 .nav-bar {
     list-style: none;
@@ -37,25 +39,14 @@ img {
     text-transform: 3s;
 }
 
-/********* Background Image **********/
-.bkgd-image {
-    background-image: url("../images/pexels-cottonbro-4056535.jpg");
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 600px;
-    background-position: center;
-    background-size: cover;
-    padding: 0 20px;
-    margin: 20px;
-    
-}
+
 /********** Table of Times ***********/
 table {
-    width:100rem;
+    width:50%;
 }
 tr {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 tr, th, td {
     text-align: left;
