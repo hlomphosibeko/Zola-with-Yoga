@@ -67,7 +67,14 @@ th, td {
     height: 1000px;
     background-position: center;
     background-size: cover;
-
+}
+div.yoga-quote {
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    color: saddlebrown;
+    padding: 10px;
+    
 }
 /********** Footer ***********/
 footer {
