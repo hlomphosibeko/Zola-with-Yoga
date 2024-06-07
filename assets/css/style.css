@@ -15,7 +15,7 @@ h1 {
 }
 div> p {
     position: relative;
-    left: 10px;
+    left: 15px;
 }
 /******** Navigation Bar ********/
 .navigation {
@@ -44,9 +44,64 @@ div> p {
 }
 
 
-/********** Table of Times ***********/
+
+/************ Image ***************/
+.yoga-image {
+    background-image: url('../images/pexels-cottonbro-4056535.jpg');
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+}
+
+.yoga-quote {
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    color: #004225;
+    padding: 5px;
+    position: relative;
+    left: 60%;
+    font-size: 1rem;
+    
+}
+
+/************** Sign Up page **************/
+#signup {
+    position: relative;
+    left: 50px;
+}
+form {
+    width: 900px;
+    height: 700px;
+    padding: 25px;
+    border-radius: 0 50px;
+    margin: 15px;
+    left: 25px;
+    background-image: url('../images/pexels-ketut-subiyanto-4473612.jpg');
+    background-position: center;
+    background-size: cover;  
+}
+
+#times {
+    background-image: url('../images/pexels-elly-fairytale-3823086.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 800px;
+    height: 700px;
+    border-radius: 50px 0;
+}
+
+.yoga-times {
+    position: relative;
+    left: 50px;
+
+}
+
 table {
     width: 50%;
+    position: relative;
+    left: 50px;
 }
 tr {
     display: grid;
@@ -64,24 +119,21 @@ th, td {
     width: 150px;
     vertical-align: bottom;
 }
-/************ Image ***************/
-.yoga-image {
-    background-image: url('../images/pexels-cottonbro-4056535.jpg');
-    background-repeat: no-repeat;
-    height: 1000px;
-    background-position: center;
-    background-size: cover;
+
+.inline {
+    display: inline-block;
+
 }
-.yoga-quote {
+.signup-quote {
     display: inline-block;
     width: 20%;
     height: 200px;
     color: #004225;
     padding: 5px;
     position: relative;
-    left: 60%;
+    left: 30%;
+    top: 10%;
     font-size: 1rem;
-    
 }
 /********** Footer ***********/
 footer {
@@ -96,8 +148,6 @@ footer>span {
 footer>a {
     text-decoration: none;
     padding: 0 15px;
-    font-size: 1rem;
-    
-   
+    font-size: 1rem;   
 }
 

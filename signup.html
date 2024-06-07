@@ -13,32 +13,46 @@
 
 <body>
     <header>
-        <h1><em>Zola</em> with Yoga!</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a class="active" href="signup.html">Signup</a></li> 
-        </ul>   
+        <div class="navigation" id="heading">
+            <h1>
+                <img class="logo" src="assets/images/Design-ohne-Titel.png" width="100" alt="A plant with a Yoga logo">
+                Zola with Yoga!
+            </h1>
+            <p>In the comfort of your own home!</p>
+            <hr>
+            <ul class="nav-bar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="signup.html">Signup</a></li>
+            </ul>
+        </div>
     </header>
     <main>
-        <form>
-            <label for="fname">First Name:</label>
-            <input type="text" name="fname" id="fname" required>
-            <br>
-            <label for="lname">Last Name:</label>
-            <input type="text" name="lname" id="lname" required>
-            <br>
-            <label for="email">Email Address:</label>
-            <input type="email" name="email-address" id="email-address" required>
-            <br>
-            <label for="password">Create Password:</label>
-            <input type="password" name="pswd" id="pswd" required>
-            <br>
+        <h2 id="signup">Sign Up for MEDITATION!</h2>
+        <div class="inline">
+            <form>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" required>
+                <br><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" required>
+                <br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email-address" id="email-address" required>
+                <br><br>
+                <label for="password">Create Password:</label>
+                <input type="password" name="pswd" id="pswd" required>
+                <br><br>
 
-        </form>
+                <label for="submit">Submit</label>
+                <input type="submit">
+
+            </form>
+        </div>
+
         <!-- Yoga booking times -->
-        <div id="times">
-            <h2>Operating Times</h2>
+        <div id="times" class="inline">
+            <h2 class="yoga-times">Operating Times</h2>
             <table>
                 <tr>
                     <th class="table-header">Starting Hours</th>
@@ -66,23 +80,25 @@
                     </td>
                 </tr>
             </table>
+            <p class="signup-quote"><strong>“Yoga is not just a repetition of a few postures, it is more about the exploration and discovery of the
+                subtle energies of life.” - Amit Ray</strong></p>
         </div>
-    </section>
+        </section>
     </main>
     <footer>
-        <span>Visit our page on:</span>  
+        <span>Visit our page on:</span>
         <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="visit our Instagram page (opens in new tab)">
-                    <i class="fa-brands fa-square-instagram"></i></a>
+            aria-label="visit our Instagram page (opens in new tab)">
+            <i class="fa-brands fa-square-instagram"></i></a>
         <a href="https://www.whatsapp.com" target="_blank" rel="noopener"
-                    aria-label="visit our WhatsApp page (opens in new tab)">
-                    <i class="fa-brands fa-square-whatsapp"></i></a>
+            aria-label="visit our WhatsApp page (opens in new tab)">
+            <i class="fa-brands fa-square-whatsapp"></i></a>
         <a href="https://www.tiktok.com" target="_blank" rel="noopener"
-                    aria-label="visit our Tiktok page (opens in new tab)">
-                    <i class="fa-brands fa-tiktok"></i></a>
+            aria-label="visit our Tiktok page (opens in new tab)">
+            <i class="fa-brands fa-tiktok"></i></a>
     </footer>
-<!-- Font Awesome kit-->
-<script src="https://kit.fontawesome.com/c40d37ae6f.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome kit-->
+    <script src="https://kit.fontawesome.com/c40d37ae6f.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
