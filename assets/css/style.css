@@ -13,6 +13,10 @@ h1 {
 .logo {
     border-radius: 20px;
 }
+div> p {
+    position: relative;
+    left: 10px;
+}
 /******** Navigation Bar ********/
 .navigation {
     width: 70%;
@@ -68,12 +72,15 @@ th, td {
     background-position: center;
     background-size: cover;
 }
-div.yoga-quote {
+.yoga-quote {
     display: inline-block;
     width: 20%;
     height: 200px;
-    color: saddlebrown;
-    padding: 10px;
+    color: #004225;
+    padding: 5px;
+    position: relative;
+    left: 60%;
+    font-size: 1rem;
     
 }
 /********** Footer ***********/

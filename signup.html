@@ -15,23 +15,59 @@
     <header>
         <h1><em>Zola</em> with Yoga!</h1>
         <ul>
-            <li><a href="">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="">Shop</a></li>
-            <li><a class="" href="">Signup</a></li> 
+            <li><a class="active" href="signup.html">Signup</a></li> 
         </ul>   
     </header>
     <main>
         <form>
-            <label for="fname">First Name</label>
+            <label for="fname">First Name:</label>
             <input type="text" name="fname" id="fname" required>
-            <label for="lname">Last Name</label>
+            <br>
+            <label for="lname">Last Name:</label>
             <input type="text" name="lname" id="lname" required>
-            <label for="email">Email Address</label>
+            <br>
+            <label for="email">Email Address:</label>
             <input type="email" name="email-address" id="email-address" required>
-            <label for="password">Create Password</label>
+            <br>
+            <label for="password">Create Password:</label>
             <input type="password" name="pswd" id="pswd" required>
+            <br>
 
         </form>
+        <!-- Yoga booking times -->
+        <div id="times">
+            <h2>Operating Times</h2>
+            <table>
+                <tr>
+                    <th class="table-header">Starting Hours</th>
+                    <th>Days</th>
+                    <th>Instructor</th>
+                    <th>Preferrence</th>
+                </tr>
+                <tr>
+                    <td class="column">19:00(CET) - 20:00(CET)</td>
+                    <td class="column">Monday - Friday</td>
+                    <td class="column"><label for="instructors">Instructors</label>
+                        <select id="instructors" name="instructor">
+                            <option value="linda-williams">Linda Williams</option>
+                            <option value="bratt-jolie">Bratt Jolie</option>
+                            <option value="kylie-herrman">Kylie Herrman</option>
+                            <option value="jin-kim">Jin Kim</option>
+                            <option value="jerry-simson">Jerry Simson</option>
+                        </select>
+                    </td>
+                    <td class="column"><label for="preferrence">Preferrence</label>
+                        <select id="preferrence" name="preferrence">
+                            <option value="private-session">Private Session</option>
+                            <option value="group-session">Group Session</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
     </main>
     <footer>
         <span>Visit our page on:</span>  
