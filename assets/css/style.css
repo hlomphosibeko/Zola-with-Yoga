@@ -27,12 +27,12 @@ div> p {
 .nav-bar {
     list-style: none;
     display: flex;
-    column-gap: 30%; 
+    column-gap: 35%; 
     margin: 0;   
     padding: 0;
 }
 .nav-bar a {
-    text-decoration: underline;
+    text-decoration: none;
     text-transform: 3s;
     font-size: 1rem; 
     color: black;
@@ -41,7 +41,6 @@ div> p {
 .nav-bar a:hover {
     color: darkmagenta;
     cursor: pointer;
-    text-decoration: none;
 }
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -64,7 +63,7 @@ div> p {
     padding: 5px;
     position: relative;
     left: 60%;
-    font-size: 5%;   
+    font-size: 30%;   
 }
 
 /************** Sign Up page **************/
@@ -89,7 +88,7 @@ form {
     background-position: center;
     background-size: cover;
     width: 800px;
-    height: 700px;
+    height: 800px;
     border-radius: 50px 0;
 }
 
@@ -138,22 +137,22 @@ th, td {
 }
 
 /************Shop Page ***************/
-#yoga-gear img {
-    /*width:50%;
-    height:50%;
-    margin:50px auto;
+.yoga-gear {
     display: grid;
-    column-count: 4;
-    gap: 10px;*/
-    clear: both;
-    line-height: 0; 
-    column-count: 3; 
-    column-gap: 0;
+
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 75px;
+    grid-auto-flow: dense;
 }
-/*.vertical {
-    grid-row: 1/3;
-    grid-column: 3/4;
-}*/
+.vertical {
+    grid-row: span 2;
+}
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
 
 /********** Footer ***********/
 footer {
@@ -173,7 +172,9 @@ footer>a {
     font-size: 1rem; 
 }
 
-/******** Media query *******/
-[class*="col-"] {
-    width: 100%;
-  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    img {
+
+    }
+}
