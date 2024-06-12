@@ -95,7 +95,7 @@ form {
 
 .yoga-times {
     position: relative;
-    left: 50px;
+    left: 30%;
     font-size: 1rem;
 
 }
@@ -175,16 +175,16 @@ footer>a {
     font-size: 1rem; 
 }
 
-/* Small devices (mobile phones, 425px and up) */
+/* Small devices (mobile phones, 425px and up) 
 @media only screen and (min-width: 425px) {
     img {
         column-count: 1;
         column-gap: 0;
     }
 }
-/* Medium devices (tablets, 1008px and up) */
+/* Medium devices (tablets, 1008px and up) 
 @media screen and (min-width: 1008px) {
-    /* Header */
+    /* Header 
     h1 {
         display: block;
         position: relative;
@@ -199,7 +199,7 @@ footer>a {
     div>p {
         display: flex;
         flex-wrap: wrap;
-    }
-}
+    } */
+
     
 
