@@ -53,7 +53,7 @@ div> p {
 .yoga-image {
     background-image: url('../images/pexels-cottonbro-4056535.jpg');
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 120vh;
     background-position: center;
     background-size: cover;
 }
@@ -61,8 +61,8 @@ div> p {
 .yoga-quote {
     display: inline-block;
     width: 20%;
-    height: 200px;
-    color: #004225;
+    height: 10%;
+    color: #000000;
     padding: 5px;
     position: relative;
     left: 60%;
@@ -72,28 +72,32 @@ div> p {
 /************** Sign Up page **************/
 #signup {
     position: relative;
-    left: 50px;
+    left: 5%;
 }
 form {
-    width: 900px;
-    height: 700px;
-    padding: 25px;
+    width: 45vw;
+    height: 60vh;
+    padding: 1rem;
     border-radius: 0 50px;
-    margin: 15px;
-    left: 25%;
+    margin: 1rem;
+    left: 5%;
     background-image: url('../images/pexels-ketut-subiyanto-4473612.jpg');
     background-position: center;
     background-size: cover;
-    font-size: 1rem;  
+    font-size: 1rem;
+    position: absolute;
+    
 }
 
 #times {
     background-image: url('../images/pexels-elly-fairytale-3823086.jpg');
     background-position: center;
     background-size: cover;
-    width: 800px;
-    height: 800px;
+    width: 50vw;
+    height: 60vh;
     border-radius: 50px 0;
+    position: absolute;
+    left: 50%;
 }
 
 .yoga-times {
@@ -104,9 +108,9 @@ form {
 }
 
 table {
-    width: 50%;
+    width: 40vw;
     position: relative;
-    left: 50px;
+    left: 5%;
 }
 tr {
     display: grid;
@@ -117,26 +121,28 @@ tr, th, td {
 }
 th, td {
     border-bottom: 1px solid black;
-    padding: 8px;
+    padding: 2%;
     box-shadow: 0px 10px 10px #00000017;
 }
 .column {
-    width: 150px;
+    width: 10vw;
     vertical-align: bottom;
+    font-size: small;
 }
 
 .inline {
     display: inline-block;
+    
 
 }
 .signup-quote {
     display: inline-block;
     width: 20%;
-    height: 200px;
+    height: 10%;
     color: #004225;
-    padding: 5px;
+    padding: 1rem;
     position: relative;
-    left: 30%;
+    left: 20%;
     top: 10%;
     font-size: 1rem;
 }
@@ -178,7 +184,7 @@ footer>a {
     font-size: 1rem; 
 }
 
-/* Small devices (mobile phones, 425px and up) 
+/* Small devices (mobile phones, 425px and up) */
 @media only screen and (min-width: 425px) {
     img {
         column-count: 1;
