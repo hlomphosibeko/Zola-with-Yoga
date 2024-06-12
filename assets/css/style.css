@@ -1,28 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
+
 body {
     font-family: 'Raleway', sans-serif;
     background-color: beige;
-}
-/*********** Header *************/
+}    
+                                /* Header */
 h1 {
     display: flex;
     font-family: 'Raleway', Open sans, sans-serif;
-    column-gap: 10px;
+    column-gap: 5%;
 }
 .logo {
     border-radius: 20px;
 }
 div> p {
     position: relative;
-    left: 15px;
+    left: 2%;
 }
+
 /******** Navigation Bar ********/
 .navigation {
     width: 70%;
@@ -51,12 +48,12 @@ div> p {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
+                                /* Main Content */
 /************ Image ***************/
 .yoga-image {
     background-image: url('../images/pexels-cottonbro-4056535.jpg');
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 100vh;
     background-position: center;
     background-size: cover;
 }
