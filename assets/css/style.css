@@ -178,6 +178,28 @@ footer>a {
 /* Small devices (mobile phones, 425px and up) */
 @media only screen and (min-width: 425px) {
     img {
-        column-count: 2;
+        column-count: 1;
+        column-gap: 0;
     }
 }
+/* Medium devices (tablets, 1008px and up) */
+@media screen and (min-width: 1008px) {
+    /* Header */
+    h1 {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    .logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    div>p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+    
+
