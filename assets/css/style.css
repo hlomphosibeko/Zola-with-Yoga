@@ -13,20 +13,23 @@ h1 {
     column-gap: 5%;
 }
 .logo {
-    border-radius: 20px;
+    border-radius: 20%;
 }
-div> p {
-    position: relative;
-    left: 2%;
+.slogan {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 1.5rem;
 }
+
 
 /******** Navigation Bar ********/
 .navigation {
     width: 100%;
     justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-flex;
     align-items: center;
+    letter-spacing: 2px;
     
 }
 .nav-bar {
@@ -34,6 +37,7 @@ div> p {
     column-gap: 20%; 
     margin: 0;   
     padding: 0;
+    display: flex;
 }
 .nav-bar a {
     text-decoration: none;
