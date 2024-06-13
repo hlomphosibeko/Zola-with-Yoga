@@ -202,9 +202,9 @@ footer>a {
         column-gap: 0;
     }
 }
-/* Medium devices (tablets, 1008px and up) 
+/* Medium devices (tablets, 1008px and up) */
 @media screen and (min-width: 1008px) {
-    /* Header 
+    /* Header */
     h1 {
         display: block;
         position: relative;
@@ -216,10 +216,12 @@ footer>a {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    div>p {
+    .slogan {
         display: flex;
         flex-wrap: wrap;
-    } */
+    }
+
+}
 
     
 
