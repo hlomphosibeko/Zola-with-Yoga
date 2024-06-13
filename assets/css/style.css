@@ -50,15 +50,15 @@ div> p {
     border-bottom: 1px solid #3a3a3a;
 }
                                 /* Main Content */
-/************ Image ***************/
-.yoga-image {
+/********** Image **********/
+.home-image {
     background-image: url('../images/pexels-cottonbro-4056535.jpg');
     background-repeat: no-repeat;
     height: 120vh;
     background-position: center;
     background-size: cover;
 }
-
+/* Hero image */
 .yoga-quote {
     display: inline-block;
     width: 20%;
