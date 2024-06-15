@@ -25,7 +25,7 @@ h1 {
 
 /******** Navigation Bar ********/
 .navigation {
-    width: 100%;
+    width: 100vw;
     justify-content: space-between;
     display: inline-flex;
     align-items: center;
@@ -60,20 +60,21 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 140vh;
+    margin-left: 5%;
 }
 
 .home-yoga-quote {
     display: inline-block;
     width: 20%;
     height: 10%;
-    color: #000000;
+    color: #302424;
     padding: 5px;
     position: relative;
     left: 60%;
     font-size: 1rem;
-    background-color: #232323af;
+    background-color: #fffffff1;
     border-radius: 5px;
     border: 10%;
        
