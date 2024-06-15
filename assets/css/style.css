@@ -201,6 +201,9 @@ footer>a {
         column-count: 1;
         column-gap: 0;
     }
+    .slogan {
+        visibility: hidden;
+    }
 }
 /* Medium devices (tablets, 1008px and up) */
 @media screen and (min-width: 1008px) {
@@ -215,7 +218,7 @@ footer>a {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
-        visibility: hidden;
+        
     }
     .slogan {
         display: flex;
