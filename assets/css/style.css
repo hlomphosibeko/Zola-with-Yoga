@@ -7,6 +7,16 @@ body {
     background-color: beige;
 }    
                                 /* Header */
+header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3a3a3a;
+    padding: 0 25px;
+    transition: 0.3s;
+}
 h1 {
     display: flex;
     font-family: 'Raleway', Open sans, sans-serif;
@@ -14,6 +24,8 @@ h1 {
 }
 .logo {
     border-radius: 20%;
+    display: block;
+    width: 100%;
 }
 .slogan {
     position: absolute;
@@ -27,24 +39,28 @@ h1 {
 .navigation {
     width: 100vw;
     justify-content: space-between;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     letter-spacing: 2px;
     
 }
-.nav-bar {
+.nav-bar li {
     list-style: none;
-    column-gap: 20%; 
-    margin: 0;   
-    padding: 0;
     display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    transition: 0.5s;
 }
-.nav-bar a {
+.nav-bar li a {
     text-decoration: none;
     transition-duration: 3s;
     font-size: 1rem; 
     color: black;
-    padding: 5px 20px;     
+    padding: 5px 20px;
+    display: block; 
+    line-height: 1;    
 }
 .nav-bar a:hover {
     color: darkmagenta;
