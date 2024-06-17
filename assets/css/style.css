@@ -32,26 +32,30 @@ h1 {
     top: 15%;
     left: 10%;
     font-size: 1.5rem;
+    visibility: hidden;
 }
 
 
 /******** Navigation Bar ********/
 .navigation {
     width: 100vw;
+    max-height: 0;
     justify-content: space-between;
     display: flex;
     align-items: center;
     letter-spacing: 2px;
+    overflow: hidden;
     
 }
 .nav-bar li {
     list-style: none;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     z-index: 1;
     transition: 0.5s;
+    padding: 20px;
 }
 .nav-bar li a {
     text-decoration: none;
@@ -66,9 +70,21 @@ h1 {
     color: darkmagenta;
     cursor: pointer;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+label {
+    display: inline-flex;
+}
+/* Toggler */
+#toggler, label {
+    display: none;
+}
+#toggler:checked~.navigation {
+    max-width: 100%;
+}
+
                                 /* Main Content */
 /* Hero Image */
 .home-image {
@@ -76,7 +92,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    width: 425px;
     height: 140vh;
     margin-left: 5%;
 }
@@ -215,12 +231,10 @@ footer>a {
 /* Small devices (mobile phones, 425px and up) */
 @media only screen and (min-width: 425px) {
     .home-image {
-        width: 100vh;
-        
+        width: 100vh;   
     }
-    .slogan {
-        visibility: hidden;
-    }
+
+    
 }
 /* Medium devices (tablets, 1008px and up) */
 @media screen and (min-width: 1008px) {
