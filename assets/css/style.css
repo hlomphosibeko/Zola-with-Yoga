@@ -13,7 +13,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*background: #2e282817;*/
     padding: 0 25px;
     transition: 0.3s;
 }
@@ -218,10 +217,9 @@ th, td {
 footer {
     text-align: center;
     padding: 1em;
-    margin: 30px;
-    
-    
+    margin: 30px;  
 }
+
 footer>span {
     color:black;
     
