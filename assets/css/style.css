@@ -100,18 +100,17 @@ label {
 }
 
 .home-yoga-quote {
-    display: inline-block;
-    width: 20%;
-    height: 10%;
+    width: 40%;
+    height: 40%;
     color: #302424;
-    padding: 5px;
+    padding-inline: 5px;
     position: relative;
-    left: 60%;
+    left: 50%;
     font-size: 1rem;
     background-color: #fffffff1;
-    border-radius: 5px;
     border: 10%;
-    overflow: auto;
+    display: flex;
+    top: 5%;
        
 }
 
