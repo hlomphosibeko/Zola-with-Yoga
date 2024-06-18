@@ -54,9 +54,11 @@ h1 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    z-index: 1;
+    z-index: 8;
     transition: 0.5s;
     padding: 20px;
+    position: relative;
+    left: 50%;
 }
 .nav-bar li a {
     text-decoration: none;
@@ -100,8 +102,8 @@ label {
 }
 
 .home-yoga-quote {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 30%;
     color: #302424;
     padding-inline: 5px;
     position: relative;
