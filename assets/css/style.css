@@ -133,7 +133,10 @@ form {
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 1rem; 
-    color: #ffffff;  
+    color: #ffffff; 
+    font-size: large;
+    font-weight: bold;
+    
 }
 
 #times {
@@ -181,9 +184,9 @@ th, td {
 .signup-quote {
     width: 45%;
     height: 40%;
-    background-color: #f2f2f2;
+    background-color: rgba(121, 121, 129, 0.5);
     border-radius: 5%;
-    color: #004225;
+    color: #000000;
     padding: 1rem;
     position: relative;
     left: 20%;
