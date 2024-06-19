@@ -83,7 +83,7 @@ h1 {
 }
 
 /* Toggler */
-#toggler, label {
+#toggler, .toggler-nav {
     display: none;
 }
 
