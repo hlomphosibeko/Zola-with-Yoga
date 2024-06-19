@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+/* Asterisk to override browser styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -15,12 +20,14 @@ header {
     align-items: center;
     padding: 0 25px;
     transition: 0.3s;
+    
 }
 h1 {
     display: flex;
     font-family: 'Raleway', Open sans, sans-serif;
-    column-gap: 5%;
+    column-gap: 4%;
     text-decoration: none;
+    
     
 }
 .logo {
@@ -81,9 +88,6 @@ label {
 #toggler, label {
     display: none;
 }
-#toggler:checked~.navigation {
-    max-width: 40vw;
-}
 
                                 /* Main Content */
 /* Hero Image */
@@ -99,17 +103,18 @@ label {
 }
 
 .home-yoga-quote {
-    width: 50%;
-    height: 30%;
+    width: 60%;
+    height: 50%;
     color: #302424;
-    padding-inline: 5px;
+    padding-inline: 5%;
     position: relative;
     left: 50%;
     font-size: 1rem;
     background-color: #fffffff1;
-    border-radius: 10%;
+    border-radius: 5%;
     display: flex;
-    top: 5%;
+    top: 4%;
+    line-height: 1;
        
 }
 
@@ -240,9 +245,11 @@ footer>a {
     }
     label {
         display: inline-flex;
+        font-size: 1rem;
     }
     #toggler:checked~.navigation {
         max-height: 100%;
+        display: block;
     }
     .nav-bar {
         flex-direction: column;
