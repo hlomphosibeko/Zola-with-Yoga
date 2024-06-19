@@ -32,7 +32,7 @@ h1 {
     
 }
 .logo {
-    width: 100%;
+    width: 20%;
     padding-right: 2%;
 }
 .slogan {
@@ -109,7 +109,7 @@ h1 {
     position: relative;
     left: 50%;
     font-size: 1rem;
-    background-color: #fffffff1;
+    background-color: #f2f2f2;
     border-radius: 5%;
     display: flex;
     top: 4%;
@@ -159,7 +159,6 @@ form {
 
 table {
     width: 100%;
-    position: relative;
     left: 5%;
     border: 1px solid #000000;
 }
@@ -175,14 +174,8 @@ tr, th, td {
     text-align: left;
 }
 th, td {
-    border-bottom: 1px solid black;
     padding: 2%;
     box-shadow: 0px 10px 10px #00000017;
-}
-.column {
-    width: 10vw;
-    vertical-align: bottom;
-    font-size: small;
 }
 
 .signup-quote {
