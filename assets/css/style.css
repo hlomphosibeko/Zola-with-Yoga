@@ -81,9 +81,7 @@ h1 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-label {
-    display: inline-flex;
-}
+
 /* Toggler */
 #toggler, label {
     display: none;
