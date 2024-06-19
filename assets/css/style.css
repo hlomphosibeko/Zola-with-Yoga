@@ -120,18 +120,19 @@ h1 {
 /************** Sign Up page **************/
 #signup {
     position: relative;
-    left: 5%;
+    left: 10%;
 }
 form {
     width: 100%;
-    height: 600px;
+    height: 60vh;
     padding: 1rem;
     border-radius: 0 50px;
     margin: 1rem;
-    left: 5%;
+    left: 10%;
     background-image: url('../images/pexels-ketut-subiyanto-4473612.jpg');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     font-size: 1rem;   
 }
 
@@ -139,6 +140,7 @@ form {
     background-image: url('../images/pexels-elly-fairytale-3823086.jpg');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 60vh;
     border-radius: 50px 0;
@@ -176,21 +178,19 @@ th, td {
     font-size: small;
 }
 
-.inline {
-    display: inline-block;
-    
-
-}
 .signup-quote {
-    display: inline-block;
-    width: 20%;
-    height: 10%;
+    width: 45%;
+    height: 40%;
+    background-color: #f2f2f2;
+    border-radius: 5%;
     color: #004225;
     padding: 1rem;
     position: relative;
     left: 20%;
-    top: 10%;
+    top: 5%;
     font-size: 1rem;
+    
+
 }
 
 /************Shop Page ***************/
@@ -229,8 +229,8 @@ footer>a {
     font-size: 1rem; 
 }
 
-/* Small devices (mobile phones, 425px and up) */
-@media only screen and (min-width: 425px) {
+/* Small devices (mobile phones, 650px and up) */
+@media only screen and (min-width: 650px) {
     .home-image {
         width: 100vh;   
     }
@@ -255,10 +255,10 @@ footer>a {
 
     
 }
-/*
-/* Medium devices (tablets, 1008px and up) 
+
+/* Medium devices (tablets, 1008px and up) */
 @media screen and (min-width: 1008px) {
-    /* Header 
+    /* Header */
     h1 {
         display: block;
         position: relative;
@@ -276,7 +276,7 @@ footer>a {
         flex-wrap: wrap;
     }
 
-}*/
+}
 
     
 
