@@ -36,7 +36,6 @@ h1 {
     padding-right: 2%;
 }
 .slogan {
-    position: absolute;
     top: 15%;
     left: 10%;
     font-size: 1.5rem;
@@ -64,6 +63,7 @@ h1 {
     padding: 20px;
     position: relative;
     left: 50%;
+    bottom: 5%;
 }
 .nav-bar li a {
     text-decoration: none;
@@ -102,7 +102,7 @@ h1 {
 }
 
 .home-yoga-quote {
-    width: 60%;
+    width: 70%;
     height: 50%;
     color: #302424;
     padding-inline: 5%;
