@@ -48,12 +48,10 @@ h1 {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    letter-spacing: 2px;
-    
-    
+    letter-spacing: 3px;   
 }
 .nav-bar li {
-    list-style: none;
+    list-style-type: none;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -63,7 +61,7 @@ h1 {
     padding: 20px;
     position: relative;
     left: 50%;
-    bottom: 5%;
+    margin-bottom: 1em;
 }
 .nav-bar li a {
     text-decoration: none;
