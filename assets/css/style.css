@@ -13,13 +13,16 @@ body {
 }    
                                 /* Header */
 header {
-    position: relative;
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 25px;
     transition: 0.3s;
+    z-index: 99;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px #555353;
     
 }
 h1 {
@@ -80,6 +83,7 @@ h1 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+    
 }
 
 /* Toggler */
