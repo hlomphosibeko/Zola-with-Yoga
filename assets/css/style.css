@@ -50,6 +50,17 @@ h1 {
     border-bottom: 1px solid #201d1d;
 }
 
+/* Navigation toggle */
+.navigation {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #201d1d;
+    display: none;
+}
+
                                 /* Main Content */
 /* Hero Image */
 main {
