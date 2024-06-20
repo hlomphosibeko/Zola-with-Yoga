@@ -222,33 +222,9 @@ footer>a {
     font-size: 1rem; 
 }
 
-/* Small devices (mobile phones, 650px and up) */
-@media only screen and (min-width: 650px) {
-    .home-image {
-        width: 100vh;   
-    }
-    /*.navigation {
-        width: 100%;
-        max-height: 0;
-        overflow: hidden;
-    }
-    label {
-        display: inline-flex;
-        font-size: 1rem;
-    }
-    
-    }
-    .nav-bar {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }*/
 
-    
-}
-
-/* Medium devices (tablets, 1008px and up) */
-@media screen and (min-width: 1008px) {
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
     /* Header */
     h1 {
         display: block;
