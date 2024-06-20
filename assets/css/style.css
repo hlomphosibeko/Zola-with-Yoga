@@ -19,11 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 25px;
-    transition: 0.3s;
-    z-index: 99;
-    background-color: #ffffff;
-    box-shadow: 0 1px 1px #555353;
-    
+    transition: 0.3s; 
 }
 h1 {
     display: flex;
@@ -31,6 +27,8 @@ h1 {
     column-gap: 4%;
     text-decoration: none;
     color: #302424;
+    text-transform: capitalize;
+    letter-spacing: 1px;
     
     
 }
