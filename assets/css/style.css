@@ -39,23 +39,10 @@ h1 {
 }
 
 /******** Navigation Bar ********/
-.navigation {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    
-    
-    top: 10%;
-}
-#toggle-navigation:checked~.navigation {
-    display: block;
-}
-#toggle-navigation {
-    display: none;
-}
-.toggle-navigation-label {
-    font-size: 2rem;
+.nav-bar {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
 
                                 /* Main Content */
