@@ -33,7 +33,10 @@ h1 {
     text-transform: uppercase;
     color: #383535;
 }
-
+#logo {
+    border-radius: 5px;
+    margin: 10px;
+}
 .slogan {
     visibility: hidden;
 }
