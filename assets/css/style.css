@@ -224,21 +224,28 @@ footer>a {
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
+    header {
+        display: flex;
+    }
     h1 {
         display: flex;
         position: relative;
         width: 100%;
         padding-right: 1rem;
+        position: absolute;
+        top: 20%;
+        left: 15%;
     }
     .logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
+        width: 30%;
         
     }
     .slogan {
         display:flex;
         visibility: visible;
+        position: absolute;
+        top: 50%;
+        left: 15%;
         
     }
     .toggle-navigation-label {
@@ -255,7 +262,6 @@ footer>a {
         display: flex;
         justify-content: space-between;
         gap: 10%;
-        
     }
 }
 
