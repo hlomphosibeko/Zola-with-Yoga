@@ -135,6 +135,7 @@ form {
     height: 60vh;
     border-radius: 50px 0;
     left: 50%;
+    margin: 1rem;
 }
 
 .yoga-times {
@@ -142,8 +143,6 @@ form {
     left: 30%;
     font-size: 1.2rem;
     font-weight: bold;
-    margin: 5%;
-    padding: 5%;
 
 }
 
@@ -288,7 +287,21 @@ footer>a {
         height: 25px;
         
     }
-    
+    .signup-quote {
+        font-size: 1.5rem;
+        height: 30%;
+    }
+    .yoga-times {
+        font-size: 2rem;
+
+    }
+    table {
+        font-size: 1.5rem;
+       
+    }
+    .table-header {
+        font-size: 1.5rem;
+    }
 }
 
     
