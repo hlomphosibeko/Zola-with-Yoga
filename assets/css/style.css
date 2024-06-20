@@ -197,8 +197,11 @@ th, td {
     grid-auto-flow: dense;
 }
 .grid-item:hover {
-    box-shadow: 0 10px 10px #201d1d;
     cursor: pointer; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h2 {
+    padding: 25px;
 }
    
 
