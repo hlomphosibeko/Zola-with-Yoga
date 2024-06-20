@@ -73,7 +73,8 @@ h1 {
                                 /* Main Content */
 /* Hero Image */
 main {
-    
+    flex: 1 0 auto;
+    margin-top: 47px;
 }
 .home-image {
     background-image: url('../images/pexels-cottonbro-4056535.jpg');
@@ -84,8 +85,7 @@ main {
     height: 100vh;
     margin: auto;
     padding: 20%;
-    flex: 1 0 auto;
-    margin-top: 47px;
+    
    
 }
 
