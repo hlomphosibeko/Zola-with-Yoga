@@ -13,19 +13,26 @@ body {
     
 }    
                                 /* Header */
-header a {
-    text-decoration: none;
-    color:#201d1d;
-    text-transform: capitalize;
+header {
     display: flex;   
     align-items: baseline; 
     justify-content: space-between;
-    padding: 10px 25px;
+    padding: 0 1rem;
     width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 2px 2px #201d1d;
+}
+header a {
+    text-decoration: none;
+    color:#201d1d;
 }
 h1 {
     font-family: inherit;
     letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #383535;
 }
 .slogan {
     visibility: hidden;
@@ -34,11 +41,10 @@ h1 {
 /******** Navigation Bar ********/
 .navigation {
     position: absolute;
-    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #201d1d;
+    
     
     top: 10%;
 }
@@ -54,6 +60,10 @@ h1 {
 
                                 /* Main Content */
 /* Hero Image */
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
 .home-image {
     background-image: url('../images/pexels-cottonbro-4056535.jpg');
     background-repeat: no-repeat;
