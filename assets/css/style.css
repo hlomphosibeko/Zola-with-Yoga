@@ -32,8 +32,25 @@ h1 {
 }
 
 /******** Navigation Bar ********/
-
-
+.navigation {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #201d1d;
+    
+    top: 10%;
+}
+#toggle-navigation:checked~.navigation {
+    display: block;
+}
+#toggle-navigation {
+    display: none;
+}
+.toggle-navigation-label {
+    font-size: 2rem;
+}
 
                                 /* Main Content */
 /* Hero Image */
