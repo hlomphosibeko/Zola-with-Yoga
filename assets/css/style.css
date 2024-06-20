@@ -107,10 +107,7 @@ h1 {
 }
 
 /************** Sign Up page **************/
-#signup {
-    position: relative;
-    left: 10%;
-}
+
 form {
     width: 100%;
     height: 60vh;
