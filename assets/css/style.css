@@ -9,37 +9,28 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    width: 100%;
     
 }    
                                 /* Header */
-header {
-    position: fixed;
-    width: 100%;
-    display: flex;
+header a {
+    text-decoration: none;
+    color:#201d1d;
+    text-transform: capitalize;
+    display: flex;   
+    align-items: baseline; 
     justify-content: space-between;
-    align-items: baseline;
     padding: 10px 25px;
-    transition: 0.3s; 
+    width: 100%;
 }
 h1 {
-    font-family: 'Raleway', Open sans, sans-serif;
-    column-gap: 4%;
-    text-decoration: none;
-    color: #302424;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    
-    
-}
-.logo {
-    padding-right: 2%;
+    font-family: inherit;
+    letter-spacing: 2px;
 }
 .slogan {
-    top: 15%;
-    left: 10%;
-    font-size: 1.5rem;
     visibility: hidden;
 }
+
 
 
 /******** Navigation Bar ********/
