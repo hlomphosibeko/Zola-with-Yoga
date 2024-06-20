@@ -19,7 +19,7 @@ header {
     padding: 0 1rem;
     width: 100%;
     transition: 0.3s;
-    position: fixed;
+    position: relative;
     background-color: rgb(187, 187, 147); 
         
 }
@@ -31,6 +31,7 @@ h1 {
     font-family: inherit;
     text-transform: uppercase;
     color: #383535;
+   
 }
 #logo {
     border-radius: 5px;
@@ -75,10 +76,7 @@ h1 {
 }
                                 /* Main Content */
 /* Hero Image */
-main {
-    flex: 1 0 auto;
-    margin-top: 47px;
-}
+
 .home-image {
     background-image: url('../images/pexels-cottonbro-4056535.jpg');
     background-repeat: no-repeat;
