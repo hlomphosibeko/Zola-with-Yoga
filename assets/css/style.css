@@ -18,10 +18,10 @@ header {
     justify-content: space-between;
     padding: 0 1rem;
     width: 100%;
-    background-color: #ffffff;
+    transition: 0.3s;
     position: fixed;
-    z-index: 99;
-    box-shadow: 0 2px 2px #201d1d;
+    background-color: rgb(187, 187, 147); 
+        
 }
 header a {
     text-decoration: none;
@@ -59,13 +59,21 @@ h1 {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #201d1d;
     display: none;
+    top: 100%;
 }
-
+#toggle-navigation:checked~.navigation {
+    display: block;
+}
+#toggle-navigation {
+    display: none;
+}
+.toggle-navigation-label {
+    font-size: 2rem;
+}
                                 /* Main Content */
 /* Hero Image */
 main {
-    flex: 1 0 auto;
-    margin-top: 47px;
+    
 }
 .home-image {
     background-image: url('../images/pexels-cottonbro-4056535.jpg');
@@ -76,6 +84,9 @@ main {
     height: 100vh;
     margin: auto;
     padding: 20%;
+    flex: 1 0 auto;
+    margin-top: 47px;
+   
 }
 
 .home-yoga-quote {
