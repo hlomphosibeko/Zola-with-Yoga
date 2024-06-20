@@ -13,7 +13,7 @@ body {
 }    
                                 /* Header */
 header {
-    display: flex;   
+    display: flex; 
     align-items: baseline; 
     justify-content: space-between;
     padding: 0 1rem;
@@ -29,7 +29,6 @@ header a {
 }
 h1 {
     font-family: inherit;
-    letter-spacing: 2px;
     text-transform: uppercase;
     color: #383535;
 }
