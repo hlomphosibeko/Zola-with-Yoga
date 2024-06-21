@@ -306,7 +306,7 @@ footer>a {
         font-size: 1.5rem;
     }
     footer>a {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 /* Medium devices (tablets, 992px and up) */
@@ -317,7 +317,7 @@ footer>a {
 .home-yoga-quote {
     position: absolute;
     top: 50%;
-    width: 40;
+    width: 40%;
     
 }
 .home-image {
