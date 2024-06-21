@@ -310,14 +310,15 @@ footer>a {
     }
 }
 /* Medium devices (tablets, 992px and up) */
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 992px){
 .navigation {
-    left: 60%;
+    left: 80%;
 }
 .home-yoga-quote {
     position: absolute;
     top: 50%;
     width: 40%;
+    height: 30%;
     
 }
 .home-image {
@@ -325,3 +326,9 @@ footer>a {
 }
 }    
 
+/* Medium devices (tablets, 1200px and up) */
+@media screen and (min-width: 1200px) {
+.home-image  {
+    width: 200%;
+} 
+}
