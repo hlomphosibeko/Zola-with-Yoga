@@ -211,18 +211,17 @@ footer {
 
 footer>span {
     color:black;
-    font-size: 1.2rem;
     
 }
 footer>a {
     text-decoration: none;
     padding: 0 15px;
-    font-size: 1.5rem; 
+    font-size: 1rem; 
 }
 
 
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
     /* Header */
     header {
         display: flex;
@@ -310,8 +309,19 @@ footer>a {
         font-size: 2rem;
     }
 }
-/* Medium devices (laptops, 992px and up) */
-@media screen and (min-width: 992px){
+/* Medium devices (tablets, 992px and up) */
+@media screen and (min-width: 1000px){
+.navigation {
+    left: 60%;
+}
+.home-yoga-quote {
+    position: absolute;
+    top: 50%;
+    width: 40;
     
+}
+.home-image {
+    width: 100%;
+}
 }    
 
