@@ -211,12 +211,13 @@ footer {
 
 footer>span {
     color:black;
+    font-size: 1.2rem;
     
 }
 footer>a {
     text-decoration: none;
     padding: 0 15px;
-    font-size: 1rem; 
+    font-size: 1.5rem; 
 }
 
 
@@ -309,7 +310,7 @@ footer>a {
         font-size: 2rem;
     }
 }
-/* Medium devices (tablets, 992px and up) */
+/* Medium devices (laptops, 992px and up) */
 @media screen and (min-width: 992px){
     
 }    
