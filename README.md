@@ -38,8 +38,19 @@
 * HTML
     - No errors were found.
     - A warning was found: Section lacks heading. A heading is supposed to be added on the section element or turn the section into a div rather https://validator.w3.org/nu/#textarea
-    ![alt text](image-1.png)
+    <img src="README.md_docs/image-4.png">
 
 * CSS
     - No errors were found https://jigsaw.w3.org/css-validator/validator
-    ![alt text](image-2.png)
+    <img src="README.md_docs/image-5.png">
+
+## Deployment
+* This site was deployed to GitHub pages. The steps are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - Under General section, select Pages
+    - From the source section, click drop down to select Deploy from branch
+    - Under Branch, select main, file/root and save  
+    - Once the save button is clicked, wait a couple of minutes to refresh the page
+    - After refreshing, the code page will appear and show that deployemnt was successful.
+
+The live link can be found here - https://hlomphosibeko.github.io/Zola-with-Yoga/
