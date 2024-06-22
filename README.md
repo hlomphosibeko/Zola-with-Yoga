@@ -12,5 +12,9 @@
 
 <img src="README.md_docs/image-2.png">
 
-#### 
+#### The Home page image
+- The home page image is put as background image. The image shows a woman sitting in a position that shows she is doing yoga. She is located in her living room.
+- On top of the background image is  a welcome message for users to have an idea of what exactly the site entails.
+
+<img src="README.md_docs/image-3.png">
 
