@@ -34,4 +34,12 @@
 
 ## Testing
 
+### Validator Testing
+* HTML
+    - No errors were found.
+    - A warning was found: Section lacks heading. A heading is supposed to be added on the section element or turn the section into a div rather https://validator.w3.org/nu/#textarea
+    ![alt text](image-1.png)
 
+* CSS
+    - No errors were found https://jigsaw.w3.org/css-validator/validator
+    ![alt text](image-2.png)
