@@ -328,7 +328,7 @@ footer>a {
 
 /* Larger devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-.home-image  {
-    width: 200%;
-} 
+.home-yoga-quote {
+    font-size: 3rem;
+}
 }
