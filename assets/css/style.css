@@ -303,22 +303,22 @@ footer>a {
         font-size: 1.5rem;
     }
     footer {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     footer>a {
         font-size: 1.5rem;
     }
 }
-/* Medium devices (tablets, 992px and up) */
+/* Large devices (laptops, 992px and up) */
 @media screen and (min-width: 992px){
 .navigation {
-    left: 80%;
+    left: 70%;
 }
 .home-yoga-quote {
     position: absolute;
     top: 50%;
     width: 40%;
-    height: 30%;
+    height: 45%;
     
 }
 .home-image {
@@ -326,7 +326,7 @@ footer>a {
 }
 }    
 
-/* Medium devices (tablets, 1200px and up) */
+/* Larger devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
 .home-image  {
     width: 200%;
