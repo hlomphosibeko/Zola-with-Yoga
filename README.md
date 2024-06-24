@@ -1,6 +1,6 @@
 # Zola with Yoga!
 
-*Zola with Yoga* is an online yoga studio where you can relax, unwind and reset after a long day of work / school and feel refreshed for the next day. Customers can also purchase Yoga equipment on the webesite's online shop. **Zola**, a word that derives from a South African language (Zulu) meaning *'calm'* or *'peacful'*, puts an emphasis on the energy the site will bring to the customers. What this site is hoping to accomplish is a more calm and joyful society. The target market is young and old adults, who wish to live a positive and stressless life.
+*Zola with Yoga* is an online yoga studio where you can relax, unwind and reset after a long day of work / school and feel refreshed for the next day. Customers can also purchase Yoga equipment on the website's online shop. **Zola**, a word that derives from a South African language (Zulu) meaning *'calm'* or *'peacful'*, puts an emphasis on the energy the site will bring to the customers. What this site is hoping to accomplish is a more calm and joyful society. The target market is young and old adults, who wish to live a positive and stressless life.
 
 <img src="README.md_docs/image-1.png">
 
@@ -20,7 +20,7 @@
 
 #### The Footer
 - The footer shows the user which social media platforms to visit in order to connect with us and to get more information about the site.
-- On Instagram and Tiktok, that is where the users can have a glimpse of what the website contains. On WhatsApp that is where they can connect with us and ask questions.
+- On Instagram and Tiktok, that is where the users can have a glimpse of what the website contains with short videos of what happens at each session. On WhatsApp that is where they can connect with us and ask questions.
 
 #### The Shop page
 - This page consists of a variety of products that users can buy.
@@ -48,7 +48,7 @@
 * This site was deployed to GitHub pages. The steps are as follows:
     - In the GitHub repository, navigate to the Settings tab
     - Under General section, select Pages
-    - From the source section, click drop down to select Deploy from branch
+    - From the source section, click drop down to select Deploy from branch 
     - Under Branch, select main, file/root and save  
     - Once the save button is clicked, wait a couple of minutes to refresh the page
     - After refreshing, the code page will appear and show that deployemnt was successful.
