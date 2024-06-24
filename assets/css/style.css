@@ -9,34 +9,39 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    width: 100%;    
-}    
-                                /* Header */
+    width: 100%;
+}
+
+/* Header */
 header {
-    display: flex; 
-    align-items: baseline; 
+    display: flex;
+    align-items: baseline;
     justify-content: space-between;
     padding: 0 1rem;
     width: 100%;
     transition: 0.3s;
     position: relative;
-    background-color: rgb(187, 187, 147); 
-        
+    background-color: rgb(187, 187, 147);
+
 }
+
 header a {
     text-decoration: none;
-    color:#201d1d;
+    color: #201d1d;
 }
+
 h1 {
     font-family: inherit;
     text-transform: uppercase;
     color: #383535;
-   
+
 }
+
 #logo {
     border-radius: 5px;
     margin: 10px;
 }
+
 .slogan {
     visibility: hidden;
 }
@@ -47,9 +52,11 @@ h1 {
     letter-spacing: 4px;
     list-style-type: none;
 }
+
 .nav-bar>li {
     margin-bottom: 1em;
 }
+
 .active {
     border-bottom: 1px solid #201d1d;
 }
@@ -65,16 +72,20 @@ h1 {
     display: none;
     top: 100%;
 }
+
 #toggle-navigation:checked~.navigation {
     display: block;
 }
+
 #toggle-navigation {
     display: none;
 }
+
 .toggle-navigation-label {
     font-size: 2rem;
 }
-                                /* Main Content */
+
+/* Main Content */
 /* Hero Image */
 
 .home-image {
@@ -86,8 +97,8 @@ h1 {
     height: 100vh;
     margin: auto;
     padding: 20%;
-    
-   
+
+
 }
 
 .welcome-message {
@@ -103,7 +114,7 @@ h1 {
     display: flex;
     top: 4%;
     line-height: 1;
-       
+
 }
 
 /************** Sign Up page **************/
@@ -119,11 +130,11 @@ form {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 1rem; 
-    color: #ffffff; 
+    font-size: 1rem;
+    color: #ffffff;
     font-size: large;
     font-weight: bold;
-    
+
 }
 
 #times {
@@ -151,18 +162,25 @@ table {
     left: 5%;
     border: 1px solid #000000;
 }
+
 .table-header {
     font-weight: normal;
     font-size: 1rem;
 }
+
 tr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-tr, th, td {
+
+tr,
+th,
+td {
     text-align: left;
 }
-th, td {
+
+th,
+td {
     padding: 2%;
     box-shadow: 0px 10px 10px #00000017;
 }
@@ -186,47 +204,53 @@ th, td {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
 }
+
 .grid-item {
     width: 100%;
     height: 100%;
     object-fit: cover;
     grid-auto-flow: dense;
 }
+
 .grid-item:hover {
-    cursor: pointer; 
+    cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 h2 {
     padding: 25px;
 }
-   
+
 
 
 /********** Footer ***********/
 footer {
     text-align: center;
     padding: 1em;
-    margin: 30px;  
+    margin: 30px;
 }
 
 footer>span {
-    color:black;
-    
+    color: black;
+
 }
+
 footer>a {
     text-decoration: none;
     padding: 0 15px;
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     header {
         display: flex;
         width: 100%;
     }
+
     h1 {
         display: flex;
         position: relative;
@@ -236,22 +260,26 @@ footer>a {
         top: 20%;
         left: 18%;
     }
+
     .logo {
         width: 30%;
-        
+
     }
+
     .slogan {
-        display:flex;
+        display: flex;
         visibility: visible;
         position: absolute;
         top: 50%;
         left: 18%;
         font-size: 1.5rem;
-        
+
     }
+
     .toggle-navigation-label {
         display: none;
     }
+
     .navigation {
         display: block;
         position: absolute;
@@ -261,12 +289,14 @@ footer>a {
         top: 50%;
         left: 65%;
     }
+
     .nav-bar {
         display: flex;
         justify-content: space-between;
         gap: 7%;
         font-size: 1.2rem;
     }
+
     .welcome-message {
         width: 60%;
         padding-top: 25px;
@@ -276,68 +306,80 @@ footer>a {
         color: rgb(29, 29, 27);
 
     }
+
     form {
         width: 100%;
         font-size: 1.5rem;
         color: #f7f2f2;
-        
+
     }
+
     form>input {
         width: 300px;
         height: 25px;
-        
+
     }
+
     .signup-quote {
         font-size: 1.5rem;
         height: 30%;
     }
+
     .yoga-times {
         font-size: 2rem;
 
     }
+
     table {
         font-size: 1.5rem;
-       
+
     }
+
     .table-header {
         font-size: 1.5rem;
     }
+
     footer {
         font-size: 1.2rem;
     }
+
     footer>a {
         font-size: 1.5rem;
     }
 }
+
 /* Large devices (laptops, 992px and up) */
-@media screen and (min-width: 992px){
-.navigation {
-    left: 70%;
-    justify-content: space-between;
-    gap: 20%;
+@media screen and (min-width: 992px) {
+    .navigation {
+        left: 70%;
+        justify-content: space-between;
+        gap: 20%;
+    }
+
+    .welcome-message {
+        width: 70%;
+        padding-top: 25px;
+        bottom: 50%;
+        font-size: 1.5rem;
+        height: 60%;
+        color: rgb(29, 29, 27);
+
+    }
+
+    .home-image {
+        width: 100%;
+    }
 }
-.welcome-message {
-    position: relative;
-    top: 100px;
-    width: 40%;
-    height: 30%;
-    font-size: 2rem;
-    
-}
-.home-image {
-    width: 100%;
-}
-}    
 
 /* Larger devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-.welcome-message {
-    font-size: 2.5rem;
-    width: 50%;
-    height: 50vh;
-    position: relative;
-    padding: 10px;
-    margin: 5px;
-    top: 0;
-}
+    .welcome-message {
+        font-size: 2.5rem;
+        width: 50%;
+        height: 50vh;
+        position: relative;
+        padding: 10px;
+        margin: 5px;
+        top: 0;
+    }
 }
