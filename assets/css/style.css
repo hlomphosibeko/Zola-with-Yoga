@@ -102,15 +102,15 @@ h1 {
 }
 
 .welcome-message {
-    width: 70%;
-    height: 50%;
+    width: 80%;
+    height: 56%;
     color: #0c0a0a;
-    padding-inline: 5%;
+    padding: 5%;
     position: relative;
     left: 50%;
     font-size: 1rem;
     background-color: rgba(121, 121, 129, 0.5);
-    border-radius: 5%;
+    border-radius: 7%;
     display: flex;
     top: 4%;
     line-height: 1;
