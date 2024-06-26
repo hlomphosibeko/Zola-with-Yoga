@@ -187,14 +187,14 @@ td {
 #times a {
     background-color: rgba(121, 121, 129, 0.5);
     color: white;
-    padding: 10px 25px;
-    font-size: 22px;
+    padding: 10px 20px;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 15px;
     transition-duration: 0.3s;
     display: block;
     width: fit-content;
-    animation: slide-up 1s;
+    margin: auto;
 }
 #times a:hover {
     cursor: pointer;
@@ -203,9 +203,9 @@ td {
 
 .signup-quote {
     width: 45%;
-    height: 40%;
+    height: 45%;
     background-color: rgba(121, 121, 129, 0.5);
-    border-radius: 5%;
+    border-radius: 15px;
     color: #000000;
     padding: 1rem;
     position: relative;
@@ -399,6 +399,6 @@ footer>a {
         top: 0;
     }
     .home-image {
-        width: 1000px;
+        width: 100%;
     }
 }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta descriptions -->
+    <meta name="description" content="Zola Yoga Studios, At home workouts, Private or group yoga sessions">
+    <meta name="keywords" content="Yoga, Zola, meditation, insence, home yoga">
+    <!-- Title -->
+    <title>Zola with Yoga</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/icon" href="assets/favicon/favicon-png.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img id="logo" src="assets/images/Design-ohne-Titel.png" width="100" alt="A plant with a Yoga logo">
+            <h1>Zola with Yoga! </h1>
+            <p class="slogan">In the comfort of your own home!</p>
+        </a>
+
+        <input type="checkbox" id="toggle-navigation" name="toggle-navigation">
+        <label for="toggle-navigation" class="toggle-navigation-label"><i class="fa-solid fa-bars"></i></label>
+
+        <nav class="navigation">
+
+            <ul class="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="signup.html" class="active">Signup</a></li>
+                <li><a href="bookings.html" class="active">Bookings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="times" class="inline">
+        <h2 class="yoga-times">Operating Times</h2>
+        <table>
+            <tr class="table-header">
+                <th>Times</th>
+                <th>Days</th>
+                <th>Instructor</th>
+                <th>Preferrence</th>
+            </tr>
+            <tr>
+                <td class="column">19:00(CET) - 20:00(CET)</td>
+                <td class="column">Monday - Friday</td>
+                <td class="column"><label for="instructors">Instructors</label>
+                    <select id="instructors" name="instructor">
+                        <option value="choose instructor">Linda Williams</option>
+                        <option value="choose instructor">Bratt Jolie</option>
+                        <option value="choose instructor">Kylie Herrman</option>
+                        <option value="choose instructor">Jin Kim</option>
+                        <option value="choose instructor">Jerry Simson</option>
+                    </select>
+                </td>
+                <td class="column"><label for="preferrence">Preferrence</label>
+                    <select id="preferrence" name="preferrence">
+                        <option value="preferrence">Private Session</option>
+                        <option value="preferrence">Group Session</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <a onclick="becomeMember()" action="https://formdump.codeinstitute.net/" method="GET"> Let's do Yoga! </a>
+        <p class="signup-quote"><strong>“Yoga is not just a repetition of a few postures, it is more about the
+                exploration and discovery of the
+                subtle energies of life.” - Amit Ray</strong></p>
+    </div>
+    
+</main>
+<footer>
+    <span>Connect with us on these platforms:</span>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener"
+        aria-label="visit our Instagram page (opens in new tab)">
+        <i class="fa-brands fa-square-instagram"></i></a>
+    <a href="https://www.whatsapp.com" target="_blank" rel="noopener"
+        aria-label="visit our WhatsApp page (opens in new tab)">
+        <i class="fa-brands fa-square-whatsapp"></i></a>
+    <a href="https://www.tiktok.com" target="_blank" rel="noopener"
+        aria-label="visit our Tiktok page (opens in new tab)">
+        <i class="fa-brands fa-tiktok"></i></a>
+</footer>
+<!-- Font Awesome kit-->
+<script src="https://kit.fontawesome.com/c40d37ae6f.js" crossorigin="anonymous"></script>
+</body>
+</html> 
