@@ -160,7 +160,7 @@ form {
 
 }
 
-/* Yoga Appointment Bookings */
+/********** Yoga Appointment Bookings *********/
 #times {
     background-image: url('../images/pexels-elly-fairytale-3823086.jpg');
     background-position: center;
@@ -248,7 +248,6 @@ footer {
 
 footer>span {
     color: black;
-
 }
 
 footer>a {
@@ -288,7 +287,6 @@ footer>a {
         top: 50%;
         left: 18%;
         font-size: 1rem;
-
     }
 
     .toggle-navigation-label {
@@ -321,6 +319,9 @@ footer>a {
         height: 60%;
         color: rgb(29, 29, 27);
 
+    }
+    .grid-item {
+        height: 25vh;
     }
 
     form {
