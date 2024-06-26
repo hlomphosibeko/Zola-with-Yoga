@@ -184,8 +184,8 @@ td {
     padding: 2%;
     box-shadow: 0px 10px 10px #00000017;
 }
-/*#times a {
-    background-color: #5762d5;
+#times a {
+    background-color: rgba(121, 121, 129, 0.5);
     color: white;
     padding: 10px 25px;
     font-size: 22px;
@@ -195,7 +195,11 @@ td {
     display: block;
     width: fit-content;
     animation: slide-up 1s;
-}*/
+}
+#times a:hover {
+    cursor: pointer;
+    background-color: #201d1d;
+}
 
 .signup-quote {
     width: 45%;
