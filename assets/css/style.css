@@ -398,4 +398,7 @@ footer>a {
         margin: 5px;
         top: 0;
     }
+    .home-image {
+        width: 1000px;
+    }
 }
