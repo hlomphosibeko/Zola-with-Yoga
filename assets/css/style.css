@@ -104,11 +104,11 @@ h1 {
 .welcome-message {
     width: 80%;
     height: 60%;
-    color: #0c0a0a;
+    color: #000000;
     padding: 5%;
     left: 60%;
     font-size: 1rem;
-    background-color: rgba(121, 121, 129, 0.5);
+    background-color: rgba(239, 239, 240, 0.801);
     border-radius: 7%;
     display: flex;
     top: 4%;
