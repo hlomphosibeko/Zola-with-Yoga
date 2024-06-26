@@ -34,12 +34,13 @@ h1 {
     font-family: inherit;
     text-transform: uppercase;
     color: #383535;
-
+    font-size: 1rem;
 }
 
 #logo {
-    border-radius: 5px;
+    border-radius: 15px;
     margin: 10px;
+    width: 20%;
 }
 
 .slogan {
@@ -48,7 +49,6 @@ h1 {
 
 /******** Navigation Bar ********/
 .nav-bar {
-    font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
@@ -83,6 +83,7 @@ h1 {
 
 .toggle-navigation-label {
     font-size: 2rem;
+    padding-right: 20px;
 }
 
 /** Main Content **/
