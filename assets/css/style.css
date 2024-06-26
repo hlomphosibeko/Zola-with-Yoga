@@ -268,11 +268,10 @@ footer>a {
 
     h1 {
         display: flex;
-        position: relative;
-        padding-right: 1rem;
+        padding-right: 0.5rem;
         position: absolute;
         top: 20%;
-        left: 18%;
+        left: 15%;
     }
 
     .logo {
@@ -285,7 +284,7 @@ footer>a {
         visibility: visible;
         position: absolute;
         top: 50%;
-        left: 18%;
+        left: 15%;
         font-size: 1rem;
     }
 
@@ -300,7 +299,7 @@ footer>a {
         background: none;
         box-shadow: none;
         top: 50%;
-        left: 50%;
+        left: 60%;
     }
 
     .nav-bar {
@@ -308,7 +307,7 @@ footer>a {
         justify-content: space-between;
         gap: 7%;
         font-size: 1rem;
-        letter-spacing: 0.5;
+        letter-spacing: 0;
     }
 
     .welcome-message {
@@ -318,6 +317,8 @@ footer>a {
         font-size: 1.5rem;
         height: 60%;
         color: rgb(29, 29, 27);
+        position: relative;
+        left: 50%;
 
     }
     .grid-item {
@@ -326,8 +327,10 @@ footer>a {
 
     form {
         width: 100%;
+        left: 0;
         font-size: 1.5rem;
         color: #f7f2f2;
+        margin: 0 5px;
     }
 
     form>input {
@@ -339,7 +342,11 @@ footer>a {
         font-size: 1.5rem;
         height: 30%;
     }
-
+    #times {
+        margin: 10px 5px 0 5px;
+        padding: 10px;
+        overflow: hidden;
+    }
     .yoga-times {
         font-size: 2rem;
     }
