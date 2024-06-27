@@ -26,14 +26,17 @@
 - This page consists of a variety of products that users can buy.
 - On this section, users do not have to be members in order to purchase the goods.
 
+<img src="README.md_docs/image-7.png">
+
 #### The Sign Up page
 - This page has a form where customers can signup to become members of the studio.
 - Once the form is completed, a submit button should be clicked. This button will take the user to a 'congratulations' page which shows the signup was successful.
 
+<img src="README.md_docs/image-6.png">
 
 #### The Bookings page
-- This page consists of a fieldset which requires the age of the member as well as any information regarding their health. This is to help the instructor to prepare yoga moves which are suitable for their age and health. 
-- It also consists of the operating times as well as the instructors and preferred settings.
+- This page consists of a fieldset which requires the age of the member as well as any information regarding their health. This is to help the instructor to prepare yoga moves which are suitable for the customer's age and health.  
+- It also consists of the booking times as well as the preferred instructors and preferred settings.
 - Our Studio has well trained and professional instructors who are more that willing to assist our customers to have the full experience as they wish. It contains of group and private sessions, where as in a private session it is just the customer and their chosen instructor.
 - The customers may change instructors and preferred sessions as they please as the customer is the one that has to be happy at the end of every session.
 
