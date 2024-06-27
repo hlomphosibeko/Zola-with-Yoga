@@ -20,14 +20,19 @@
 
 #### The Footer
 - The footer shows the user which social media platforms to visit in order to connect with us and to get more information about the site.
-- On Instagram and Tiktok, that is where the users can have a glimpse of what the website contains with short videos of what happens at each session. On WhatsApp that is where they can connect with us and ask questions.
+- On Instagram and Tiktok, that is where the users can have a glimpse of what the website contains with short videos of what takes place at each session. On WhatsApp that is where they can connect with us and ask questions.
 
 #### The Shop page
 - This page consists of a variety of products that users can buy.
 - On this section, users do not have to be members in order to purchase the goods.
 
 #### The Sign Up page
-- This page has a form where a new member can sign up in order to become a member.
+- This page has a form where customers can signup to become members of the studio.
+- Once the form is completed, a submit button should be clicked. This button will take the user to a 'congratulations' page which shows the signup was successful.
+
+
+#### The Bookings page
+- This page consists of a fieldset which requires the age of the member as well as any information regarding their health. This is to help the instructor to prepare yoga moves which are suitable for their age and health. 
 - It also consists of the operating times as well as the instructors and preferred settings.
 - Our Studio has well trained and professional instructors who are more that willing to assist our customers to have the full experience as they wish. It contains of group and private sessions, where as in a private session it is just the customer and their chosen instructor.
 - The customers may change instructors and preferred sessions as they please as the customer is the one that has to be happy at the end of every session.
