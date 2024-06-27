@@ -52,22 +52,23 @@
                             <option value="40s">40-49</option>
                             <option value="50s">50-55</option>
                         </select>
-                    </div>
-                    
-                </fieldset>
-                <fieldset>
-                    <div>
-                        <legend>Health Issues</legend>
+                        <br><br>
                         <label for="health">Health Issues</label>
-                        <input type="radio" id="health" name="health">
                         <br>
-                        <select value="answer" required>Yes</select>
-                        <select value="answer" required>No</select>
-                    </div>
-                    
-                    <label for="reason">Response</label>
-                    <textarea id="reason" rows="3" cols="50" name="reason" required></textarea>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="decider" value="yes" required>
+
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="decider" value="no" required>                       
+                        <br><br>
+                        <label for="reason">Response</label>
+                        <br>
+                        <textarea id="reason" rows="3" cols="50" name="reason" required></textarea>
+                </div>                   
                 </fieldset>
+                               
+                   
+                
                 <table>
                     <tr class="table-header">
                         <th>Times</th>
