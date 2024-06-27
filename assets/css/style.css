@@ -417,6 +417,12 @@ footer>a {
     #signup-4-yoga {
         height: 100vh;
     }
+    .grid-item {
+        height: 50vh;
+    }
+    #times {
+        height: 100vh;
+    }
 }
 
 /* Larger devices (desktops, 1200px and up) */

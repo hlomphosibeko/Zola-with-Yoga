@@ -42,6 +42,32 @@
         <div id="times">
             <h2 class="yoga-times">Operating Times</h2>
             <form action="https://formdump.codeinstitute.net/" method="POST">
+                <fieldset>
+                    <legend>Yogi Details</legend>
+                    <div>
+                        <label for="yogi-age">Age</label>
+                        <select id="yogi-age" name="age" required>
+                            <option value="20s">20-29</option>
+                            <option value="30s">30-39</option>
+                            <option value="40s">40-49</option>
+                            <option value="50s">50-55</option>
+                        </select>
+                    </div>
+                    
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <legend>Health Issues</legend>
+                        <label for="health">Health Issues</label>
+                        <input type="radio" id="health" name="health">
+                        <br>
+                        <select value="answer" required>Yes</select>
+                        <select value="answer" required>No</select>
+                    </div>
+                    
+                    <label for="reason">Response</label>
+                    <textarea id="reason" rows="3" cols="50" name="reason" required></textarea>
+                </fieldset>
                 <table>
                     <tr class="table-header">
                         <th>Times</th>
@@ -50,10 +76,26 @@
                         <th>Preferrence</th>
                     </tr>
                     <tr>
-                        <td class="column">19:00(CET) - 20:00(CET)</td>
-                        <td class="column">Monday - Friday</td>
-                        <td class="column"><label for="instructors">Instructors</label>
-                            <select id="instructors" name="instructor">
+                        <td class="column">
+                            <select id="time-choice" name="time-choice" required>
+                                <option value="16h00">16:00-17:00</option>
+                                <option value="18h00">17:30-18:30</option>
+                                <option value="19h00">19:00-20:00</option>
+                                <option value="21h00">20:30-21:30</option>
+                                <option value="22h00">22:00-23:00</option>
+                            </select>
+                        </td>
+                        <td class="column">
+                            <select id="weekday" name="weekday" required>
+                                <option value="monday">Monday</option>
+                                <option value="tuesday">Tuesday</option>
+                                <option value="wednesday">Wednesday</option>
+                                <option value="thursday">Thursday</option>
+                                <option value="friday">Friday</option>
+                            </select>
+                        </td>
+                        <td class="column">
+                            <select id="instructors" name="instructor" required>
                                 <option value="choose instructor">Linda Williams</option>
                                 <option value="choose instructor">Bratt Jolie</option>
                                 <option value="choose instructor">Kylie Herrman</option>
@@ -61,17 +103,17 @@
                                 <option value="choose instructor">Jerry Simson</option>
                             </select>
                         </td>
-                        <td class="column"><label for="preferrence">Preferrence</label>
-                            <select id="preferrence" name="preferrence">
+                        <td class="column">
+                            <select id="preferrence" name="preferrence" required>
                                 <option value="preferrence">Private Session</option>
                                 <option value="preferrence">Group Session</option>
                             </select>
                         </td>
                     </tr>
                 </table>
-                <a onclick="becomeMember()"> Let's do Yoga! </a>
+                <input type="submit" value="Let's do Yoga!">
             </form>
-            
+
 
             <p class="signup-quote"><strong>“Yoga is not just a repetition of a few postures, it is more about the
                     exploration and discovery of the
