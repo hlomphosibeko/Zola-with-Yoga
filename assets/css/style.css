@@ -414,6 +414,9 @@ footer>a {
     .home-image {
         width: 100%;
     }
+    #signup-4-yoga {
+        height: 100vh;
+    }
 }
 
 /* Larger devices (desktops, 1200px and up) */
