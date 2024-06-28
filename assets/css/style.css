@@ -180,32 +180,11 @@ fieldset {
     font-weight: small;
     padding-bottom: 5px;
 }
-
+.yogi-details {
+    background-color: rgba(121, 121, 129, 0.5);
+}
 table {
-    width: 40%;
-    left: 5%;
-    border: 1px solid #000000;
-}
-
-.table-header {
-    font-size: 0.5rem;
-}
-
-tr {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-tr,
-th,
-td {
-    text-align: left;
-}
-
-th,
-td {
-    padding: 2%;
-    box-shadow: 0px 10px 10px #00000017;
+    border-collapse: collapse;
 }
 
 #times a:hover {
@@ -214,18 +193,15 @@ td {
 }
 
 .yogapose-quote {
-    width: 60%;
-    height: 45%;
+    width: 80%;
     background-color: rgba(121, 121, 129, 0.5);
     border-radius: 15px;
     color: #000000;
     padding: 1rem;
-    position: relative;
-    left: 20%;
     top: 5%;
     font-size: 1rem;
+    margin: 20px;
 }
-
 
 /********** Footer ***********/
 footer {
