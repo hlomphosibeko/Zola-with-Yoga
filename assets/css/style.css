@@ -184,7 +184,9 @@ fieldset {
     font-weight: small;
     padding-bottom: 5px;
 }
-
+#reasons {
+    width: 10%;
+}
 table {
     width: 50%;
     left: 5%;
