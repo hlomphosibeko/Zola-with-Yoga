@@ -138,19 +138,19 @@ h2 {
 
 #signup-4-yoga {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh-102px);
     padding: 5px;
     border-radius: 0 50px;
     background-image: url(../images/pexels-ketut-subiyanto-4473612.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: cover;  
+}
+.my-signup-form {
+    background-color: rgba(178, 178, 185, 0.5);
     font-size: 1rem;
     color: #201d1d;
     font-size: large;
     font-weight: bold;
-}
-.my-signup-form {
-    background-color: rgba(178, 178, 185, 0.5);
 }
 #signup {
     color: #000000;
@@ -365,6 +365,12 @@ footer>a {
     }
     #times {
         height: 100vh;
+    }
+    .my-signup-form {
+        padding: 20px;
+    }
+    .my-signup-form input {
+        width: 40%;
     }
 }
 
