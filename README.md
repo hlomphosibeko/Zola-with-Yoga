@@ -1,6 +1,6 @@
 # Zola with Yoga!
 
-*Zola with Yoga* is an online yoga studio where you can relax, unwind and reset after a long day of work / school and feel refreshed for the next day. Customers can also purchase Yoga equipment on the website's online shop. **Zola**, a word that derives from a South African language (Zulu) meaning *'calm'* or *'peacful'*, puts an emphasis on the energy the site will bring to the customers. What this site is hoping to accomplish is a more calm and joyful society. The target market is young and old adults, who wish to live a positive and stressless life.
+*Zola with Yoga* is an online yoga studio where you can relax, unwind and reset after a long day of work / school and feel refreshed for the next day. **Zola**, a word that derives from a South African language (Zulu) meaning *'calm'* or *'peacful'*, puts an emphasis on the energy the site will bring to the customers. People are so busy in such a way that they no longer have time to go to fitness studios. This site hopes to help people interested in doing yoga but do not have time to travel to the actual studio. This site also hopes to accomplish a more calm and joyful society without having to pay more for transport. The target market is young and old adults, who wish to live a positive and stressless life. Customers who wish to keep fit but cannot afford to go to a studio.  Customers can also purchase Yoga equipment on the website's online shop. 
 
 <img src="README.md_docs/image-1.png">
 
@@ -37,10 +37,12 @@
 #### The Bookings page
 - This page consists of a fieldset which requires the age of the member as well as any information regarding their health. This is to help the instructor to prepare yoga moves which are suitable for the customer's age and health.  
 - It also consists of the booking times as well as the preferred instructors and preferred settings.
-- Our Studio has well trained and professional instructors who are more that willing to assist our customers to have the full experience as they wish. It contains of group and private sessions, where as in a private session it is just the customer and their chosen instructor.
+- Our Studio has well trained and professional instructors who are more than willing to assist our customers to have the full experience as they wish. It contains of group and private sessions, where as in a private session it is just the customer and their chosen instructor.
 - The customers may change instructors and preferred sessions as they please as the customer is the one that has to be happy at the end of every session.
+- The instructors speak 4 different languages namely: English, Chinese, French and German.
 
 ## Testing
+
 
 ### Validator Testing
 * HTML
