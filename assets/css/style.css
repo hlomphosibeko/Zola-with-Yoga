@@ -160,7 +160,7 @@ h2 {
     color: #000000;
 }
 
-input[type=submit] {
+.button {
     display: inline-block;
     padding: 5px 15px;
     font-size: 15px;
@@ -175,11 +175,11 @@ input[type=submit] {
     box-shadow: 0 5px #999;
 }
 
-input[type=submit]:hover {
+.button:hover {
     background-color: darkolivegreen;
 }
 
-input[type=submit]:active {
+.button:active {
     background-color: darkolivegreen;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -321,7 +321,7 @@ footer>a {
         margin-left: 30%;
     }
 
-    input[type=submit] {
+    .button {
         padding: 10px 20px;
         font-size: 15px;
         border-radius: 15px;
@@ -341,18 +341,14 @@ footer>a {
         height: 25px;
     }
 
-    .my-signup-form {
-        margin: 5%;
-        padding: 10px;
-    }
-
-    .my-signup-form input {
+    .input-area {
         width: 40%;
         height: 30px;
     }
-
-
-
+    
+    #terms {
+        width: 70%;
+    }
     .yogapose-quote {
         font-size: 1.5rem;
     }
@@ -438,8 +434,10 @@ footer>a {
         padding: 20px;
     }
 
-    .my-signup-form input {
-        width: 40%;
+    .button {
+        padding: 15px 25px;
+        font-size: 20px;
+        font-weight: bold
     }
 }
 
