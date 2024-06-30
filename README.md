@@ -8,13 +8,13 @@
 
 #### Navigation Bar
 - The navigation bar is set to make it easy for the user to get to the right page with just a click. 
-- This section is found on all pages for the convinience of the user.
+- This section is found on all pages for the convinience of the user. The user will not have to click on the back button to return to a page.
 
 <img src="README.md_docs/image-2.png">
 
 #### The Home page image
-- The home page image is put as background image. The image shows a woman sitting in a position that shows she is doing yoga. She is located in her living room.
-- On top of the background image is  a welcome message for users to have an idea of what exactly the site entails.
+- The home page image is put as background image. The image shows a woman sitting in a position that shows she is doing yoga. She is located in her living room. Which illustrates the setting of the sessions.
+- On top of the background image is a welcome message for users to have an idea of what exactly the site entails.
 
 <img src="README.md_docs/image-3.png">
 
@@ -22,8 +22,10 @@
 - The footer shows the user which social media platforms to visit in order to connect with us and to get more information about the site.
 - On Instagram and Tiktok, that is where the users can have a glimpse of what the website contains with short videos of what takes place at each session. On WhatsApp that is where they can connect with us and ask questions.
 
+<img src="README.md_docs/footer.png">
+
 #### The Shop page
-- This page consists of a variety of products that users can buy.
+- This page consists of a variety of products and equipments users can purchase so they are prepared for yoga.
 - On this section, users do not have to be members in order to purchase the goods.
 
 <img src="README.md_docs/image-7.png">
@@ -31,8 +33,9 @@
 #### The Sign Up page
 - This page has a form where customers can signup to become members of the studio.
 - Once the form is completed, a submit button should be clicked. This button will take the user to a 'congratulations' page which shows the signup was successful.
+- Terms of the website have been added so users are not blind sided when it comes to the product being sold.
 
-<img src="README.md_docs/image-6.png">
+<img src="README.md_docs/signup-page.png">
 
 #### The Bookings page
 - This page consists of a fieldset which requires the age of the member as well as any information regarding their health. This is to help the instructor to prepare yoga moves which are suitable for the customer's age and health.  
@@ -41,17 +44,21 @@
 - The customers may change instructors and preferred sessions as they please as the customer is the one that has to be happy at the end of every session.
 - The instructors speak 4 different languages namely: English, Chinese, French and German.
 
+<img src="README.md_docs/bookings.png">
+
 ## Testing
 
 
 ### Validator Testing
 * HTML
     - No errors were found.
-    - A warning was found: Section lacks heading. A heading is supposed to be added on the section element or turn the section into a div rather https://validator.w3.org/nu/#textarea
+    - A warning was found: Section lacks heading. A heading is supposed to be added on the section element or turn the section into a div rather [Validator W3 html](https://validator.w3.org/nu/#textarea)
+
     <img src="README.md_docs/image-4.png">
 
 * CSS
-    - No errors were found https://jigsaw.w3.org/css-validator/validator
+    - No errors were found [Validator W3 css](https://jigsaw.w3.org/css-validator/validator)
+    
     <img src="README.md_docs/image-5.png">
 
 ## Deployment
