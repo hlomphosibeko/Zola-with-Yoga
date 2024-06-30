@@ -184,6 +184,16 @@ input[type=submit]:active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+#terms {
+    height: 100px;
+    width: 90%;
+    padding: 0.5rem;
+    margin: 1.5rem 0 0 15px;
+    border: 1px solid grey;
+    overflow: scroll;
+    font-size: 0.5rem;
+    background-color: #ffffff;
+}
 
 /********** Yoga Appointment Bookings *********/
 #times {
@@ -337,6 +347,13 @@ footer>a {
         padding: 10px;
     }
 
+    .my-signup-form input {
+        width: 40%;
+        height: 30px;
+    }
+
+
+
     .yogapose-quote {
         font-size: 1.5rem;
     }
@@ -356,10 +373,10 @@ footer>a {
     }
 
     .yoga-times {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
-    footer {
+    footer>span {
         font-size: 1.2rem;
     }
 
