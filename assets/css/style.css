@@ -156,10 +156,6 @@ h2 {
     padding: 10px;
 }
 
-#signup {
-    color: #000000;
-}
-
 .button {
     display: inline-block;
     padding: 5px 15px;
@@ -271,7 +267,7 @@ footer>a {
 
     /* Header */
     h1 {
-        padding-right: 0.5rem;
+        padding-right: 1rem;
         position: absolute;
         top: 20%;
         left: 15%;
@@ -331,7 +327,7 @@ footer>a {
     #signup-4-yoga {
         width: 100%;
         left: 0;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin: 0 5px;
         height: calc(100vh-102px);
     }
