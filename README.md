@@ -51,6 +51,7 @@
 
 ### Validator Testing
 * HTML
+    - At the beginning I was struggling with adding the Favicon to html. It was impossible to upload Favicon files while I was doing the Love Running walkthrough project.
     - No errors were found.
     - A warning was found: Section lacks heading. A heading is supposed to be added on the section element or turn the section into a div rather [Validator W3 html](https://validator.w3.org/nu/#textarea)
 
@@ -71,3 +72,10 @@
     - After refreshing, the code page will appear and show that deployemnt was successful.
 
 The live link can be found here - https://hlomphosibeko.github.io/Zola-with-Yoga/
+
+## Credits
+### Content 
+* 
+
+### Media
+* The images used on this website are from 
