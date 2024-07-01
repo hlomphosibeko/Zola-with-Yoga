@@ -180,6 +180,7 @@ h2 {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
 #terms {
     height: 100px;
     width: 90%;
@@ -341,10 +342,11 @@ footer>a {
         width: 40%;
         height: 30px;
     }
-    
+
     #terms {
         width: 70%;
     }
+
     .yogapose-quote {
         font-size: 1.5rem;
     }
@@ -435,6 +437,14 @@ footer>a {
         font-size: 20px;
         font-weight: bold
     }
+
+    .yogi-details {
+        margin: 0 50px;
+        padding: 20px;
+    }
+    .yogapose-quote {
+        margin-left: 50px;
+    }
 }
 
 /* Larger devices (desktops, 1200px and up) */
@@ -445,5 +455,12 @@ footer>a {
 
     .home-image {
         width: 100%;
+    }
+    .yogi-details {
+        margin: 0 50px;
+        padding: 20px;
+    }
+    .yogapose-quote {
+        margin-left: 50px;
     }
 }
