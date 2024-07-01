@@ -13,6 +13,7 @@ body {
 }
 
 /*************** Header *************/
+/* Home Page */
 header {
     display: flex;
     align-items: center;
@@ -46,7 +47,7 @@ h1 {
     visibility: hidden;
 }
 
-/**** Navigation Bar ****/
+/* Navigation Bar */
 .nav-bar {
     letter-spacing: 4px;
     list-style-type: none;
@@ -110,7 +111,7 @@ h1 {
     line-height: 1;
 }
 
-/************Shop Page ***************/
+/* Shop Page */
 .shop-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -134,7 +135,7 @@ h2 {
     padding: 25px;
 }
 
-/************** Sign Up page **************/
+/* Sign Up page */
 
 #signup-4-yoga {
     width: 100%;
@@ -181,6 +182,7 @@ h2 {
     transform: translateY(4px);
 }
 
+/* Terms and Conditions */
 #terms {
     height: 100px;
     width: 90%;
@@ -192,8 +194,8 @@ h2 {
     background-color: #ffffff;
 }
 
-/********** Yoga Appointment Bookings *********/
-#times {
+/* Yoga Appointment Bookings */
+#operating-times {
     background-image: url('../images/pexels-elly-fairytale-3823086.jpg');
     background-position: center;
     background-size: cover;
@@ -202,7 +204,6 @@ h2 {
     height: calc(100vh - 102px);
     border-radius: 50px 0;
     left: 50%;
-
 }
 
 fieldset {
@@ -212,8 +213,7 @@ fieldset {
     padding-bottom: 10px;
 }
 
-.yoga-times {
-    left: 30%;
+.yoga-booking-session {
     font-size: 1rem;
     font-weight: small;
     padding-bottom: 5px;
@@ -225,11 +225,6 @@ fieldset {
 
 table {
     border-collapse: collapse;
-}
-
-#times a:hover {
-    cursor: pointer;
-    background-color: #201d1d;
 }
 
 .yogapose-quote {
@@ -248,24 +243,21 @@ footer {
     text-align: center;
     padding: 2px;
     background-color: rgb(187, 187, 147);
-
 }
 
 footer>span {
     color: black;
     font-size: 0.8rem;
 }
-
+/* Social Media Icons */
 footer>a {
     text-decoration: none;
     padding: 0 15px;
-
 }
 
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     h1 {
         padding-right: 1rem;
@@ -286,7 +278,7 @@ footer>a {
         left: 15%;
         font-size: 1rem;
     }
-
+    /* Navigation toggle */
     .toggle-navigation-label {
         display: none;
     }
@@ -307,7 +299,7 @@ footer>a {
         letter-spacing: 0;
         align-items: center;
     }
-
+    /* Hero image */
     .home-image {
         height: 100vh;
     }
@@ -317,14 +309,14 @@ footer>a {
         color: rgb(29, 29, 27);
         margin-left: 30%;
     }
-
+    /* Submit button style */
     .button {
         padding: 10px 20px;
         font-size: 15px;
         border-radius: 15px;
         box-shadow: 0 5px #999;
     }
-
+    /* Signup page */
     #signup-4-yoga {
         width: 100%;
         left: 0;
@@ -346,7 +338,7 @@ footer>a {
     #terms {
         width: 70%;
     }
-
+    /* Bookings page */
     .yogapose-quote {
         font-size: 1.5rem;
     }
@@ -359,16 +351,17 @@ footer>a {
         margin: 20px;
     }
 
-    #times {
+    #operating-times {
         margin: 10px 5px 0 5px;
         padding: 10px;
         overflow: hidden;
     }
 
-    .yoga-times {
+    .yoga-booking-session {
         font-size: 1.5rem;
     }
 
+    /* Footer */
     footer>span {
         font-size: 1.2rem;
     }
@@ -380,6 +373,7 @@ footer>a {
 
 /* Large devices (laptops, 992px and up) */
 @media screen and (min-width: 992px) {
+    /* Header */
     h1 {
         font-size: 1.5rem;
     }
@@ -405,7 +399,8 @@ footer>a {
         font-size: 1rem;
         padding-right: 30px;
     }
-
+    
+    /* Home page */
     .welcome-message {
         padding: 15px;
         font-size: 1.5rem;
@@ -416,28 +411,22 @@ footer>a {
         height: 100vh;
     }
 
+    /* Signup for yoga */
     #signup-4-yoga {
         height: 100vh;
     }
-
+    .my-signup-form {
+        padding: 20px;
+    }
+    /* Shopping items */
     .grid-item {
         height: 50vh;
     }
 
-    #times {
+    /* Yogi info section */
+    #operating-times {
         height: 100vh;
     }
-
-    .my-signup-form {
-        padding: 20px;
-    }
-
-    .button {
-        padding: 15px 25px;
-        font-size: 20px;
-        font-weight: bold
-    }
-
     .yogi-details {
         margin: 0 50px;
         padding: 20px;
@@ -445,17 +434,25 @@ footer>a {
     .yogapose-quote {
         margin-left: 50px;
     }
+    /* Submit button style */
+    .button {
+        padding: 15px 25px;
+        font-size: 20px;
+        font-weight: bold
+    }
 }
 
 /* Larger devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+    /* Home page style */
     .welcome-message {
         font-size: 2rem;
     }
-
     .home-image {
         width: 100%;
     }
+
+    /* Bookings page style */
     .yogi-details {
         margin: 0 50px;
         padding: 20px;
