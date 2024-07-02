@@ -46,6 +46,10 @@
 
 <img src="README.md_docs/bookings.png">
 
+### Features Left to Implement
+* On the shop page - a style to view the prices of the goods being purchased.
+* When a customer books a session
+
 ## Testing
 
 
@@ -75,7 +79,11 @@ The live link can be found here - https://hlomphosibeko.github.io/Zola-with-Yoga
 
 ## Credits
 ### Content 
-* 
+* The quote used on the bookings page is taken from this site: [Yoga quote]https://www.teganbyoga.com/post/best-yoga-quotes
+
 
 ### Media
-* The images used on this website are from 
+* The images used on this website are taken from various sites: [Yoga Images](https://www.pexels.com/search/yoga/ , [Yoga incense](https://www.pexels.com/search/incense/)
+)
+* The logo image used is taken from this site: [Yoga Logo](https://www.canva.com/design/play?type=TAB7AVEOUWQ&category=tACZCvjI6mE&locale=de-DE)
+* A Tutor from Code Institute provided a guide on how to compress images, which was found on this site: [TinyJPG](https://tinyjpg.com/)
