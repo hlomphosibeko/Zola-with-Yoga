@@ -91,17 +91,13 @@ h1 {
 
 .home-image {
     background-image: url('../images/pexels-cottonbro-4056535.jpg');
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
     height: calc(100vh - 102px);
-    margin: auto;
     padding: 20%;
 }
 
 .welcome-message {
-    width: 100%;
     color: #000000;
     padding: 20px;
     text-align: center;
@@ -112,6 +108,10 @@ h1 {
 }
 
 /* Shop Page */
+.shop-heading {
+    font-size: 1rem;
+    margin: 10px;
+}
 .shop-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -123,7 +123,6 @@ h1 {
     height: 20vh;
     width: 100%;
     object-fit: cover;
-    grid-auto-flow: dense;
 }
 
 .grid-item:hover {
@@ -131,14 +130,9 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-h2 {
-    padding: 25px;
-}
-
 /* Sign Up page */
 
 #signup-4-yoga {
-    width: 100%;
     height: calc(100vh - 102px);
     padding: 5px;
     border-radius: 0 50px;
@@ -147,11 +141,16 @@ h2 {
     background-size: cover;
 }
 
+.sign-me-up {
+    padding: 5px;
+    font-size: 1rem;
+}
+
 .my-signup-form {
     background-color: rgba(178, 178, 185, 0.5);
     font-size: 1rem;
     color: #201d1d;
-    font-size: large;
+    font-size: 1rem;
     font-weight: bold;
     margin: 5%;
     padding: 10px;
@@ -200,10 +199,9 @@ h2 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
     height: calc(100vh - 102px);
     border-radius: 50px 0;
-    left: 50%;
+    
 }
 
 fieldset {
@@ -215,8 +213,7 @@ fieldset {
 
 .yoga-booking-session {
     font-size: 1rem;
-    font-weight: small;
-    padding-bottom: 5px;
+    padding: 15px;
 }
 
 .yogi-details {
@@ -232,9 +229,7 @@ table {
     background-color: rgba(121, 121, 129, 0.5);
     border-radius: 15px;
     color: #000000;
-    padding: 1rem;
-    top: 5%;
-    font-size: 1rem;
+    padding: 1rem;    
     margin: 20px;
 }
 
@@ -288,16 +283,16 @@ footer>a {
         background: none;
         box-shadow: none;
         top: 50%;
-        left: 60%;
+        left: 400px;
         width: 0;
     }
 
     .nav-bar {
         display: flex;
         justify-content: space-between;
-        gap: 7%;
+        gap: 20px;
         font-size: 1rem;
-        letter-spacing: 0;
+        letter-spacing: unset;
         align-items: center;
     }
     /* Hero image */
@@ -315,12 +310,14 @@ footer>a {
         box-shadow: 0 5px #999;
     }
     /* Signup page */
-    #signup-4-yoga {
-        
+    #signup-4-yoga { 
         left: 0;
+        font-size: 1.2rem;   
+    }
+
+    .sign-me-up {
         font-size: 1.2rem;
-      
-       
+        margin: 0 30px;
     }
 
     #signup-4-yoga>input {
@@ -387,9 +384,8 @@ footer>a {
     }
 
     .navigation {
-        left: 70%;
+        left: 650px;
         justify-content: space-between;
-        gap: 20%;
     }
 
     .nav-bar {
@@ -400,13 +396,12 @@ footer>a {
     
     /* Home page */
     .welcome-message {
-        padding: 15px;
+        margin: auto;
         font-size: 1.5rem;
     }
 
     .home-image {
         width: 100%;
-        height: 100vh;
     }
 
     /* Signup for yoga */
