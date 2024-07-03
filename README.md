@@ -53,6 +53,9 @@
 * Once a member is done completing the bookings form, when they click the 'Let's do Yoga!' button, they should receive an email with Google Meet log in details.
 
 ## Testing
+My results from Lighthouse show that less content should be used, and to reduce time spent parsing.
+<img src="./README.md_docs/Lighthouse-results.png">
+
 My project fits on all screens the way I had intended. Although at first it was an issue as there was unwanted space on the side. A Tutor advised that the reason for the space is the navigation width which was set to 100% and positioned to left with another 70% which added the unwanted space. 
 
 ### Validator Testing
