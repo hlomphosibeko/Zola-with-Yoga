@@ -74,6 +74,15 @@ At first, I wanted the booking session table to be on the home page with a backg
 <img src="./README.md_docs/htmll-code-background-img.png">
 Rebecca, a tutor at CI, helped me notice that the image was being called on both CSS and HTML. I removed the image called on HTML. 
 
+<!-- My shop pages images-->
+I could not get my images to fit in a screen without showing ugly spaces.
+<img src="./README.md_docs/shop-page-before.png">
+<img src="./README.md_docs/grid-css-before.png">
+
+I had used grid to style the images, but they were not performing accordingly. A tutor from CI, Roo, advised me to use this site: [CSS Grid](https://medium.com/@Kamran1819G/responsive-masonry-image-gallery-using-a-css-grid-1a1f2711eae7).
+Now, my code is working just fine with the code below:
+<img src="./README.md_docs/current-grid-css.png">
+
 <!-- Lighthouse Results -->
 <img src="./README.md_docs/Lighthouse-results.png"> 
 
@@ -85,6 +94,13 @@ Desktop results look better than mobile results.
 
 <!-- Navigation bar issues -->
 The navigation bar gave me problems a couple of times. I used this site: [Navigator](https://stackoverflow.com/questions/42095405/logo-and-navigation-bar-inline#:~:text=You%20could%20also%20simply%20put,align%20to%20center%20things%20horizontally.) However along the way it still didn't perform the way I had anticipated, especially the toggle section for small devices. I went throught the Love Running Walkthrough Project and found an easier way of doing it.
+
+<img src="./README.md_docs/navbar-before.png">
+
+For small devices I wanted to use the toggle effect as shown on the Love Running Walkthrough Project. My toggle icon would not apear, instead the nav bar would go under the logo.
+<img src="./README.md_docs/toggle-issue1.png">
+On html, the width was set to 100% which was pushing the hamburger down.
+<img src="./README.md_docs/logo-html.png">
 
 <!-- What website looks like on all devices -->
 My project fits on all screens the way I had intended. Although at first it was an issue as there was unwanted space on the side. Sean, a Tutor from Code Insititute advised that the reason for the space is the navigation width which was set to 100% and positioned to left with another 70% which added the unwanted space. I then removed the width on larger devices as the effect was affecting only them. Now there is no space, the bakground images cover the whole screen.
