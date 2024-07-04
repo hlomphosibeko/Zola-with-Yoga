@@ -57,10 +57,24 @@
 ## Testing
 My journey through creating this website was not an easy one. I had an idea of what I wanted however the results were not good. I even had to restart the whole website, and went through the lessons once again just so I can have a better understanding of the elements, attributes and so forth.  
 
-The favicon gave me an issue as the files did not upload on my file explorer. I got an error
-![alt text](image-1.png)
+<!-- Favicon -->
+The favicon gave me an issue as the files did not upload on my file explorer. I got the following error:
+
+<img src="./README.md_docs/favicon-error-message.png">
+
+Alan, a tutor at CI, assisted me, however the error appeared once again. I then renamed the file from "favicon-32x32" to "favicon-png.png", then it worked.
+<img src="./README.md_docs/favicon-file.png">
+On this section I used an emoji of a woman in Lotus Position which looks like a yoga position.
 My results from Lighthouse show that less content should be used, and to reduce time spent parsing.
 
+<!-- Home page not responding as background image -->
+At first, I wanted the booking session table to be on the home page with a background image of a woman sitting in a lotus position, where a user can book sessions with the Yoga instructors. The table was there however the background image was covering the whole screen. Below the home page is the code used.
+<img src="./README.md_docs/first-home-img.png">
+<img src="./README.md_docs/css-code-background-image.png">
+<img src="./README.md_docs/htmll-code-background-img.png">
+Rebecca, a tutor at CI, helped me notice that the image was being called on both CSS and HTML. I removed the image called on HTML. 
+
+<!-- Lighthouse Results -->
 <img src="./README.md_docs/Lighthouse-results.png"> 
 
 All images used on this project are set as background images, hence why the forms are blocking the women in the background. Just like any other background with content on top of it.
@@ -69,8 +83,10 @@ All images used on this project are set as background images, hence why the form
 
 Desktop results look better than mobile results.
 
+<!-- Navigation bar issues -->
 The navigation bar gave me problems a couple of times. I used this site: [Navigator](https://stackoverflow.com/questions/42095405/logo-and-navigation-bar-inline#:~:text=You%20could%20also%20simply%20put,align%20to%20center%20things%20horizontally.) However along the way it still didn't perform the way I had anticipated, especially the toggle section for small devices. I went throught the Love Running Walkthrough Project and found an easier way of doing it.
 
+<!-- What website looks like on all devices -->
 My project fits on all screens the way I had intended. Although at first it was an issue as there was unwanted space on the side. Sean, a Tutor from Code Insititute advised that the reason for the space is the navigation width which was set to 100% and positioned to left with another 70% which added the unwanted space. I then removed the width on larger devices as the effect was affecting only them. Now there is no space, the bakground images cover the whole screen.
 
 <img src="./README.md_docs/Navigation-css.png">
@@ -112,3 +128,4 @@ The live link can be found here - https://hlomphosibeko.github.io/Zola-with-Yoga
 * The images used on this website are taken from various sites: [Yoga Images](https://www.pexels.com/search/yoga/) , [Yoga incense](https://www.pexels.com/search/incense/)
 * The logo image used is taken from this site: [Yoga Logo](https://www.canva.com/design/play?type=TAB7AVEOUWQ&category=tACZCvjI6mE&locale=de-DE)
 * Oisin, a Tutor from Code Institute provided a guide on how to compress images, which was found on this site: [TinyJPG](https://tinyjpg.com/)
+* The favicon was found on this site: [Favicon](https://favicon.io/emoji-favicons/woman-in-lotus-position)
