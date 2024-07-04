@@ -56,6 +56,10 @@ h1 {
 .nav-bar>li {
     margin-bottom: 1em;
 }
+.nav-bar>li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
 
 .active {
     border-bottom: 1px solid #201d1d;
@@ -384,7 +388,7 @@ footer>a {
     }
 
     .navigation {
-        left: 650px;
+        left: 700px;
         justify-content: space-between;
     }
 
@@ -438,6 +442,9 @@ footer>a {
 /* Larger devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     /* Home page style */
+    .navigation {
+        left: 900px;
+    }
     .welcome-message {
         font-size: 2rem;
     }

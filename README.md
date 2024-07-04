@@ -55,6 +55,10 @@
 * Add a phone number to connect to WhatsApp.
 
 ## Testing
+My journey through creating this website was not an easy one. I had an idea of what I wanted however the results were not good. I even had to restart the whole website, and went through the lessons once again just so I can have a better understanding of the elements, attributes and so forth.  
+
+The favicon gave me an issue as the files did not upload on my file explorer. I got an error
+![alt text](image-1.png)
 My results from Lighthouse show that less content should be used, and to reduce time spent parsing.
 
 <img src="./README.md_docs/Lighthouse-results.png"> 
@@ -65,9 +69,11 @@ All images used on this project are set as background images, hence why the form
 
 Desktop results look better than mobile results.
 
-The navigation bar have me problems a couple of times. I used this site: [Navigator](https://stackoverflow.com/questions/42095405/logo-and-navigation-bar-inline#:~:text=You%20could%20also%20simply%20put,align%20to%20center%20things%20horizontally.) However along the way it still didn't perform the way I had anticipated, especially the toggle section for small devices. I went throught the Love Running Walkthrough Project and found an easier way of doing it.
+The navigation bar gave me problems a couple of times. I used this site: [Navigator](https://stackoverflow.com/questions/42095405/logo-and-navigation-bar-inline#:~:text=You%20could%20also%20simply%20put,align%20to%20center%20things%20horizontally.) However along the way it still didn't perform the way I had anticipated, especially the toggle section for small devices. I went throught the Love Running Walkthrough Project and found an easier way of doing it.
 
-My project fits on all screens the way I had intended. Although at first it was an issue as there was unwanted space on the side. A Tutor advised that the reason for the space is the navigation width which was set to 100% and positioned to left with another 70% which added the unwanted space. 
+My project fits on all screens the way I had intended. Although at first it was an issue as there was unwanted space on the side. Sean, a Tutor from Code Insititute advised that the reason for the space is the navigation width which was set to 100% and positioned to left with another 70% which added the unwanted space. I then removed the width on larger devices as the effect was affecting only them. Now there is no space, the bakground images cover the whole screen.
+
+<img src="./README.md_docs/Navigation-css.png">
 
 ### Validator Testing
 * HTML
@@ -95,19 +101,14 @@ The live link can be found here - https://hlomphosibeko.github.io/Zola-with-Yoga
 
 ## Credits
 ### Content 
-* The quote used on the bookings page is taken from this site: [Yoga quote]https://www.teganbyoga.com/post/best-yoga-quotes
+* The quote used on the bookings page is taken from this site: [Tegan by yoga]https://www.teganbyoga.com/post/best-yoga-quotes
 * The terms and conditions used on the sign up page are taken from this site: [Terms and conditions](https://yogauonline.com/terms-and-conditions/)
 * I struggled with getting my footer to stick to the bottom of the page, this site helped me: [Footer](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer)
 * The style for the submit button found on the sign up and bookings page was found in this site: [Signup W3School](https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3)
 * The position of which the images on the shop page are placed is found on this website: [Grid container](https://www.shecodes.io/athena/22284-how-to-scale-images-with-different-sizes-in-a-css-grid#:~:text=If%20your%20pictures%20have%20different,resized%20to%20fit%20its%20container.)
 
 
-
-
-
-
 ### Media
-* The images used on this website are taken from various sites: [Yoga Images](https://www.pexels.com/search/yoga/ , [Yoga incense](https://www.pexels.com/search/incense/)
-)
+* The images used on this website are taken from various sites: [Yoga Images](https://www.pexels.com/search/yoga/) , [Yoga incense](https://www.pexels.com/search/incense/)
 * The logo image used is taken from this site: [Yoga Logo](https://www.canva.com/design/play?type=TAB7AVEOUWQ&category=tACZCvjI6mE&locale=de-DE)
-* Sean, a Tutor from Code Institute provided a guide on how to compress images, which was found on this site: [TinyJPG](https://tinyjpg.com/)
+* Oisin, a Tutor from Code Institute provided a guide on how to compress images, which was found on this site: [TinyJPG](https://tinyjpg.com/)
