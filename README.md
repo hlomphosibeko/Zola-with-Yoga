@@ -58,6 +58,7 @@
 My journey through creating this website was not an easy one. I had an idea of what I wanted however the results were not good. I even had to restart the whole website, and went through the lessons once again just so I can have a better understanding of the elements, attributes and so forth.  
 
 <!-- Favicon -->
+##### My Favicon
 The favicon gave me an issue as the files did not upload on my file explorer. I got the following error:
 
 <img src="./README.md_docs/favicon-error-message.png">
@@ -68,13 +69,17 @@ On this section I used an emoji of a woman in Lotus Position which looks like a 
 My results from Lighthouse show that less content should be used, and to reduce time spent parsing.
 
 <!-- Home page not responding as background image -->
-At first, I wanted the booking session table to be on the home page with a background image of a woman sitting in a lotus position, where a user can book sessions with the Yoga instructors. The table was there however the background image was covering the whole screen. Below the home page is the code used.
+##### My Home Page
+At first, I wanted the booking session table to be on the home page with a background image of a woman sitting in a lotus position, where a user can book sessions with the Yoga instructors. The table was there however the background image was not covering the whole screen. Rebecca, a tutor at CI, helped me notice that the image was being called on both CSS and HTML, hence why the table also had a zoomed in background image. I removed the image called on HTML.
 <img src="./README.md_docs/first-home-img.png">
-<img src="./README.md_docs/css-code-background-image.png">
-<img src="./README.md_docs/htmll-code-background-img.png">
-Rebecca, a tutor at CI, helped me notice that the image was being called on both CSS and HTML. I removed the image called on HTML. 
+
+After removing the the image which was called on the html page, I decided to also remove the table from the home page. Now the background image is covering the whole screen and includes a welcome message for the users.
+
+<img src="./README.md_docs/home-page-after.png">
+
 
 <!-- My shop pages images-->
+##### My Shop Page
 I could not get my images to fit in a screen without showing ugly spaces.
 <img src="./README.md_docs/shop-page-before.png">
 <img src="./README.md_docs/grid-css-before.png">
@@ -93,14 +98,22 @@ All images used on this project are set as background images, hence why the form
 Desktop results look better than mobile results.
 
 <!-- Navigation bar issues -->
+##### My Navigation Bar
 The navigation bar gave me problems a couple of times. I used this site: [Navigator](https://stackoverflow.com/questions/42095405/logo-and-navigation-bar-inline#:~:text=You%20could%20also%20simply%20put,align%20to%20center%20things%20horizontally.) However along the way it still didn't perform the way I had anticipated, especially the toggle section for small devices. I went throught the Love Running Walkthrough Project and found an easier way of doing it.
 
 <img src="./README.md_docs/navbar-before.png">
 
-For small devices I wanted to use the toggle effect as shown on the Love Running Walkthrough Project. My toggle icon would not apear, instead the nav bar would go under the logo.
-<img src="./README.md_docs/toggle-issue1.png">
-On html, the width was set to 100% which was pushing the hamburger down.
-<img src="./README.md_docs/logo-html.png">
+For small devices I wanted to use the toggle effect as shown on the Love Running Walkthrough Project. My toggle icon would not apear, instead the nav bar would go under the logo. On html, the width was set to 100% which was pushing the hamburger down. 
+<img src="./README.md_docs/toggle-issue1.png"> 
+
+I had wrapped the logo, nav-bar and toggle within an anchor which caused the menu not to drop down when burger icon is clicked.
+<img src="./README.md_docs/toggle-issue2.png">
+
+I then removed the nav-bar and toggle html from  the anchor. This resulted in the navigation bar menu to drop down when burger icon was clicked. The menu now appears below navigation section.
+
+<img src="./README.md_docs/toggle-result.png">
+
+
 
 <!-- What website looks like on all devices -->
 My project fits on all screens the way I had intended. Although at first it was an issue as there was unwanted space on the side. Sean, a Tutor from Code Insititute advised that the reason for the space is the navigation width which was set to 100% and positioned to left with another 70% which added the unwanted space. I then removed the width on larger devices as the effect was affecting only them. Now there is no space, the bakground images cover the whole screen.
