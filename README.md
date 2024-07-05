@@ -73,6 +73,14 @@ My results from Lighthouse show that less content should be used, and to reduce 
 At first, I wanted the booking session table to be on the home page with a background image of a woman sitting in a lotus position, where a user can book sessions with the Yoga instructors. The table was there however the background image was not covering the whole screen. Rebecca, a tutor at CI, helped me notice that the image was being called on both CSS and HTML, hence why the table also had a zoomed in background image. I removed the image called on HTML.
 <img src="./README.md_docs/first-home-img.png">
 
+I had another issue of nesting the background image class and welcome message class in a div element. Which ever style I gave to the welcome message was affecting the background image.
+
+<img src="./README.md_docs/background-image-before.png">
+
+I seperated the classes in order to style them individually, the below was the result. Sarah, a tutor at CI advised that I apply the welcome message class to just the text.
+
+<img src="./README.md_docs/background-image-after.png">
+
 After removing the the image which was called on the html page, I decided to also remove the table from the home page. Now the background image is covering the whole screen and includes a welcome message for the users.
 
 <img src="./README.md_docs/home-page-after.png">
@@ -106,7 +114,7 @@ The navigation bar gave me problems a couple of times. I used this site: [Naviga
 For small devices I wanted to use the toggle effect as shown on the Love Running Walkthrough Project. My toggle icon would not apear, instead the nav bar would go under the logo. On html, the width was set to 100% which was pushing the hamburger down. 
 <img src="./README.md_docs/toggle-issue1.png"> 
 
-I had wrapped the logo, nav-bar and toggle within an anchor which caused the menu not to drop down when burger icon is clicked.
+I had wrapped the logo, nav-bar and toggle within an anchor which caused the menu not to drop down when burger icon is clicked. Roo, a tutor, helped me with this one.
 <img src="./README.md_docs/toggle-issue2.png">
 
 I then removed the nav-bar and toggle html from  the anchor. This resulted in the navigation bar menu to drop down when burger icon was clicked. The menu now appears below navigation section.
