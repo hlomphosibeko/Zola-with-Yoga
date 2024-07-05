@@ -393,7 +393,7 @@ footer>a {
     }
 
     .nav-bar {
-        letter-spacing: 2;
+        letter-spacing: 0;
         font-size: 1rem;
         padding-right: 30px;
     }

@@ -61,24 +61,27 @@ My journey through creating this website was not an easy one. I had an idea of w
 ##### My Favicon
 The favicon gave me an issue as the files did not upload on my file explorer. I got the following error:
 
-<img src="./README.md_docs/favicon-error-message.png">
+<img src="README.md_docs/favicon-error-message.png">
 
 Alan, a tutor at CI, assisted me, however the error appeared once again. I then renamed the file from "favicon-32x32" to "favicon-png.png", then it worked.
-<img src="./README.md_docs/favicon-file.png">
+
+<img src="README.md_docs/favicon-file.png">
+
 On this section I used an emoji of a woman in Lotus Position which looks like a yoga position.
 My results from Lighthouse show that less content should be used, and to reduce time spent parsing.
 
 <!-- Home page not responding as background image -->
 ##### My Home Page
 At first, I wanted the booking session table to be on the home page with a background image of a woman sitting in a lotus position, where a user can book sessions with the Yoga instructors. The table was there however the background image was covering the whole screen. Rebecca, a tutor at CI, helped me notice that the image was being called on both CSS and HTML. I removed the image called on HTML.
-<img src="./README.md_docs/first-home-img.png">
+
+<img src="README.md_docs/first-home-img.png">
 
 After removing the the image which was called on the html page, I decided to also remove the table from the home page. Now the background image is covering the whole screen and includes a welcome message for the users.
-<img src="./README.md_docs/home-page-after.png">
+<img src="README.md_docs/home-page-after.png">
 
 I had another issue of nesting the background image class and welcome message class in a div element. Which ever style I gave to the welcome message was affecting the background image.
 
-<img src="./README.md_docs/background-image-before.png">
+<img src="README.md_docs/background-image-before.png">
 
 I seperated the classes in order to style them individually, the below was the result. Sarah, a tutor at CI advised that I apply the welcome message class to just the text.
 
@@ -86,15 +89,15 @@ I seperated the classes in order to style them individually, the below was the r
 
 My welcome message did not have a background at first and that would make editing difficult.
 
-<img src="./README.md_docs/welcome-mess-nobackground.png">
+<img src="README.md_docs/welcome-mess-nobackground.png">
 
 My mentor, Moritz, advised that I add a background-color and make it transparent. I had also added a height, which also made it difficult for the welcome message to fit.
 
-<img src="./README.md_docs/welcome-height.png">
+<img src="README.md_docs/welcome-height.png">
  
 He then also advised that I remove the height.
 
-<img src="./README.md_docs/welcome-mess-now.png">
+<img src="README.md_docs/welcome-mess-now.png">
 
 
 <!-- My shop pages images-->
@@ -104,16 +107,16 @@ I could not get my images to fit in a screen without showing ugly spaces.
 <img src="./README.md_docs/shop-page-before.png">
 
 I had used grid to style the images, but they were not performing accordingly. A tutor from CI, Roo, advised me to use this site: [CSS Grid](https://medium.com/@Kamran1819G/responsive-masonry-image-gallery-using-a-css-grid-1a1f2711eae7).
-Now, my code is working just fine with the code below:
+Now my shop page looks better:
 
-![alt text](image.png)
+<img src="./README.md_docs/shop-page-now.png">
  
 <!-- Lighthouse Results -->
-<img src="./README.md_docs/Lighthouse-results.png"> 
+<img src="README.md_docs/Lighthouse-results.png"> 
 
 All images used on this project are set as background images, hence why the forms are blocking the women in the background. Just like any other background with content on top of it.
 
-<img src="./README.md_docs/Lighthouse1.png">
+<img src="README.md_docs/Lighthouse1.png">
 
 Desktop results look better than mobile results.
 
@@ -121,28 +124,35 @@ Desktop results look better than mobile results.
 ##### My Navigation Bar
 The navigation bar gave me problems a couple of times. I used this site: [Navigator](https://stackoverflow.com/questions/42095405/logo-and-navigation-bar-inline#:~:text=You%20could%20also%20simply%20put,align%20to%20center%20things%20horizontally.) However along the way it still didn't perform the way I had anticipated, especially the toggle section for small devices. I went throught the Love Running Walkthrough Project and found an easier way of doing it.
 
-<img src="./README.md_docs/navbar-before.png">
+<img src="README.md_docs/navbar-before.png">
 
 For small devices I wanted to use the toggle effect as shown on the Love Running Walkthrough Project. My toggle icon would not apear, instead the nav bar would go under the logo. On html, the width was set to 100% which was pushing the hamburger down. 
-<img src="./README.md_docs/toggle-issue1.png"> 
+
+<img src="README.md_docs/toggle-issue1.png"> 
 
 I had wrapped the logo, nav-bar and toggle within an anchor which caused the menu not to drop down when burger icon is clicked. Roo, a tutor, helped me with this one.
-<img src="./README.md_docs/toggle-issue2.png">
+
+<img src="README.md_docs/toggle-issue2.png">
 
 I then removed the nav-bar and toggle html from  the anchor. This resulted in the navigation bar menu to drop down when burger icon was clicked. The menu now appears below navigation section.
 
-<img src="./README.md_docs/toggle-result.png">
+<img src="README.md_docs/toggle-result.png">
 
 
 
 <!-- What website looks like on all devices -->
 My project fits on all screens the way I had intended. Although at first it was an issue as there was unwanted space on the side. Sean, a Tutor from Code Insititute advised that the reason for the space is the navigation width which was set to 100% and positioned to left with another 70% which added the unwanted space. I then removed the width on larger devices as the effect was affecting only them. Now there is no space, the bakground images cover the whole screen.
 
-<img src="./README.md_docs/Navigation-css.png">
+<img src="./README.md_docs/unwanted-space-home.png">
 
 ### Validator Testing
+
+I had forgotten to validate my code at the beginning, but after so many changes to the codes, the below is my results:
 * HTML
-    - At the beginning I was struggling with adding the Favicon to html. It was impossible to upload Favicon files while I was doing the Love Running walkthrough project.
+    - Errors were found on the bookings page:
+
+    ![alt text](image-2.png)
+    
     - No errors were found.
     - A warning was found: Section lacks heading. A heading is supposed to be added on the section element or turn the section into a div rather [Validator W3 html](https://validator.w3.org/nu/#textarea)
 
@@ -152,6 +162,11 @@ My project fits on all screens the way I had intended. Although at first it was 
     - No errors were found [Validator W3 css](https://jigsaw.w3.org/css-validator/validator)
     
     <img src="README.md_docs/image-5.png">
+
+    - There was an error found on CSS with the nav-bar.
+    ![alt text](image.png)
+
+    ![alt text](image-1.png)
 
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
