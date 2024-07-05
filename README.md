@@ -70,8 +70,11 @@ My results from Lighthouse show that less content should be used, and to reduce 
 
 <!-- Home page not responding as background image -->
 ##### My Home Page
-At first, I wanted the booking session table to be on the home page with a background image of a woman sitting in a lotus position, where a user can book sessions with the Yoga instructors. The table was there however the background image was not covering the whole screen. Rebecca, a tutor at CI, helped me notice that the image was being called on both CSS and HTML, hence why the table also had a zoomed in background image. I removed the image called on HTML.
+At first, I wanted the booking session table to be on the home page with a background image of a woman sitting in a lotus position, where a user can book sessions with the Yoga instructors. The table was there however the background image was covering the whole screen. Rebecca, a tutor at CI, helped me notice that the image was being called on both CSS and HTML. I removed the image called on HTML.
 <img src="./README.md_docs/first-home-img.png">
+
+After removing the the image which was called on the html page, I decided to also remove the table from the home page. Now the background image is covering the whole screen and includes a welcome message for the users.
+<img src="./README.md_docs/home-page-after.png">
 
 I had another issue of nesting the background image class and welcome message class in a div element. Which ever style I gave to the welcome message was affecting the background image.
 
@@ -81,21 +84,30 @@ I seperated the classes in order to style them individually, the below was the r
 
 <img src="./README.md_docs/background-image-after.png">
 
-After removing the the image which was called on the html page, I decided to also remove the table from the home page. Now the background image is covering the whole screen and includes a welcome message for the users.
+My welcome message did not have a background at first and that would make editing difficult.
 
-<img src="./README.md_docs/home-page-after.png">
+<img src="./README.md_docs/welcome-mess-nobackground.png">
+
+My mentor, Moritz, advised that I add a background-color and make it transparent. I had also added a height, which also made it difficult for the welcome message to fit.
+
+<img src="./README.md_docs/welcome-height.png">
+ 
+He then also advised that I remove the height.
+
+<img src="./README.md_docs/welcome-mess-now.png">
 
 
 <!-- My shop pages images-->
 ##### My Shop Page
 I could not get my images to fit in a screen without showing ugly spaces.
+
 <img src="./README.md_docs/shop-page-before.png">
-<img src="./README.md_docs/grid-css-before.png">
 
 I had used grid to style the images, but they were not performing accordingly. A tutor from CI, Roo, advised me to use this site: [CSS Grid](https://medium.com/@Kamran1819G/responsive-masonry-image-gallery-using-a-css-grid-1a1f2711eae7).
 Now, my code is working just fine with the code below:
-<img src="./README.md_docs/current-grid-css.png">
 
+![alt text](image.png)
+ 
 <!-- Lighthouse Results -->
 <img src="./README.md_docs/Lighthouse-results.png"> 
 
