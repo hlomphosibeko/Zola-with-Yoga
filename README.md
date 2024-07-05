@@ -151,8 +151,8 @@ I had forgotten to validate my code at the beginning, but after so many changes 
 * HTML
     - Errors were found on the bookings page:
 
-    ![alt text](image-2.png)
-    
+    <img src="README.md_docs/html-error.png">
+
     - No errors were found.
     - A warning was found: Section lacks heading. A heading is supposed to be added on the section element or turn the section into a div rather [Validator W3 html](https://validator.w3.org/nu/#textarea)
 
@@ -164,9 +164,9 @@ I had forgotten to validate my code at the beginning, but after so many changes 
     <img src="README.md_docs/image-5.png">
 
     - There was an error found on CSS with the nav-bar.
-    ![alt text](image.png)
+    <img src="README.md_docs/css-validator-check.png">
 
-    ![alt text](image-1.png)
+    <img src="README.md_docs/css-validator-error.png">
 
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
