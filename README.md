@@ -1,51 +1,61 @@
 # Zola with Yoga!
 
-*Zola with Yoga* is an online yoga studio where you can relax, unwind and reset after a long day of work / school and feel refreshed for the next day. **Zola**, a word that derives from a South African language (Zulu) meaning *'calm'* or *'peacful'*, puts an emphasis on the energy the site will bring to the customers. People are so busy in such a way that they no longer have time to go to fitness studios. This site hopes to help people interested in doing yoga but do not have time to travel to the actual studio. This site also hopes to accomplish a more calm and joyful society without having to pay more for transport. The target market is young and old adults, who wish to live a positive and stressless life. Customers who wish to keep fit but cannot afford to go to a studio.  Customers can also purchase Yoga equipment on the website's online shop. 
+*Zola with Yoga* is an online yoga studio where you can relax, unwind and reset after a long day of work / school and feel refreshed for the next day. **Zola**, a word that derives from a South African language (Zulu) meaning *'calm'* or *'peacful'*, puts an emphasis on the energy the site will bring to the customers. People are so busy in such a way that they no longer have time to go to fitness studios. This site hopes to help people interested in doing yoga but do not have time to travel to the actual studio. This site also hopes to accomplish a more calm and joyful society without having to pay more for transport. The target market is young and old adults, who wish to live a positive and stressless life. Customers who wish to keep fit but cannot afford to go to a studio. Customers can also purchase Yoga equipment on the website's online shop. 
 
-<img src="README.md_docs/image-1.png">
+<img src="README.md_docs/responsive-screens.png">
 
 ## Features
 
 #### Navigation Bar
 - The navigation bar is set to make it easy for the user to get to the right page with just a click. 
 - This section is found on all pages for the convinience of the user. The user will not have to click on the back button to return to a page.
+- When a user is on a certain page, there is a borderline below the name of the page which helps them see which page they are on at that time.
+- By clicking the on the logo, a user can easily return to the home page.
+- The slogan lets the user know that they can do yoga at their homes. Please see image below:
 
-<img src="README.md_docs/image-2.png">
+<img src="README.md_docs/nav-bar-feature.png">
 
 #### The Home page image
 - The home page image is put as background image. The image shows a woman sitting in a position that shows she is doing yoga. She is located in her living room. Which illustrates the setting of the sessions.
 - On top of the background image is a welcome message for users to have an idea of what exactly the site entails.
-- The home page welcomes a user to the yoga studio which is held online. The user will be expected to read the welcome message then sign up for yoga if they are interested.
+- The home page welcomes a user to the yoga studio which is held online. The user will be expected to read the welcome message then sign up for yoga if they are interested. Please see below image:
 
-<img src="README.md_docs/image-3.png">
+<img src="README.md_docs/hero-image-feeture.png">
 
 #### The Footer
 - The footer shows the user the accessible social media platforms to visit in order to connect with us and to get more information about the site.
-- On Instagram and Tiktok, that is where the users can have a glimpse of what the website contains with short videos of what takes place at each session. On WhatsApp that is where they can connect with us and ask questions.
+- On Instagram and Tiktok, that is where the users can have a glimpse of what the website contains with short videos of what takes place at each session. On WhatsApp that is where they can connect with us and ask questions. Please see image below:
 
 <img src="README.md_docs/footer.png">
 
 #### The Shop page
-- This page consists of a variety of products and equipments users can purchase so they are prepared for yoga.
-- On this section, users do not have to be members in order to purchase the goods.
+- This page consists of a variety of products and equipments which users can purchase so they are prepared for yoga.
+- On this section, users do not have to be members in order to purchase the goods. Please see image below:
 
-<img src="README.md_docs/image-7.png">
+<img src="README.md_docs/shopping-feature.png">
 
 #### The Sign Up page
 - This page has a form where customers can signup to become members of the studio.
-- Once the form is completed, a submit button should be clicked. This button will take the user to a 'congratulations' page which shows the signup was successful.
+- A required feature is added on the form so all fields are completed in order for the the submit button to work.
+- The submit button has a defensive feature that required all fields to be completed.
 - Terms of the website have been added so users are not blind sided when it comes to the product being sold.
+- Once the form is completed, a submit button should be clicked. This button will take the user to a Code Institute 'congratulations' page which shows the signup was successful. Please see below screenshots: 
 
-<img src="README.md_docs/signup-page.png">
+<img src="README.md_docs/signup-page.png"> <img src="./README.md_docs/congratulations-feature.png">
 
 #### The Bookings page
-- This page consists of a fieldset which requires the age of the member as well as any information regarding their health. This is to help the instructor to prepare yoga moves which are suitable for the customer's age and health.  
+- This page consists of a fieldset which requires the age of the member as well as any information regarding their health. This is to help the instructor to prepare yoga moves which are suitable for the customer's age and health.
+- The radio button forces a user to select one option, no multiple options can be selected at once.  
 - It also consists of the booking times as well as the preferred instructors and preferred settings.
+- A user cannot add instructors outside of the 5 named in the site. The user cannot add new time slots which are not on our scope.
 - Our Studio has well trained and professional instructors who are more than willing to assist our customers to have the full experience as they wish. It contains of group and private sessions, where as in a private session it is just the customer and their chosen instructor.
 - The customers may change instructors and preferred sessions as they please as the customer is the one that has to be happy at the end of every session.
 - The instructors speak 4 different languages namely: English, Chinese, French and German.
+- The 'Let's do Yoga!' button has a defensive feature that required all fields to be completed.
+- When the 'Let's do yoga!' button is clicked, the user will be taken to another screean which shows that the member can start doing yoga.
+- This button will take the user to a Code Institute 'congratulations' page which shows the signup was successful. Please see images below:
 
-<img src="README.md_docs/bookings.png">
+<img src="README.md_docs/bookings.png"> <img src="./README.md_docs/congratulations-feature.png">
 
 ### Features Left to Implement
 * On the shop page - a style to view the prices of the goods being purchased.
@@ -55,15 +65,15 @@
 * Add a phone number to connect to WhatsApp.
 
 ## Testing
-My journey through creating this website was not an easy one. I had an idea of what I wanted however the results were not good. I even had to restart the whole website, and went through the lessons once again just so I can have a better understanding of the elements, attributes and so forth.  
+My journey through creating this website was not an easy one. I had an idea of what I wanted the website to look like, however the results were not good. I even had to restart the whole website, and went through the lessons once again just so I can have a better understanding of the elements, attributes and so forth.  
 
 <!-- Favicon -->
 ##### My Favicon
-The favicon gave me an issue as the files did not upload on my file explorer. I got the following error:
+The favicon gave me an issue as the files did not want to upload on my file explorer. I got the following error:
 
 <img src="README.md_docs/favicon-error-message.png">
 
-Alan, a tutor at CI, assisted me, however the error appeared once again. I then renamed the file from "favicon-32x32" to "favicon-png.png", then it worked.
+ I then renamed the file from "favicon-32x32" to "favicon-png.png", then it worked.
 
 <img src="README.md_docs/favicon-file.png">
 
@@ -186,6 +196,7 @@ The live link can be found here - https://hlomphosibeko.github.io/Zola-with-Yoga
 * I struggled with getting my footer to stick to the bottom of the page, this site helped me: [Footer](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer)
 * The style for the submit button found on the sign up and bookings page was found in this site: [Signup W3School](https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3)
 * The position of which the images on the shop page are placed is found on this website: [Grid container](https://www.shecodes.io/athena/22284-how-to-scale-images-with-different-sizes-in-a-css-grid#:~:text=If%20your%20pictures%20have%20different,resized%20to%20fit%20its%20container.)
+* Alan, a tutor at CI, assisted me with the Favicon.
 
 
 ### Media
