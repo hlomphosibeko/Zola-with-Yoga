@@ -156,18 +156,6 @@ The below screenshot shows the drop down where members would have to select thei
 
 ![alt text](image-7.png)
  
-<!-- Lighthouse Results -->
-##### My Lighthouse Results
-
-All images used on this project are set as background images, hence why the forms are blocking the women in the background. Just like any other background with content on top of it.
-
-<img src="./README.md_docs/lighthouse-results.png"> 
-
-
-
-<img src="README.md_docs/lighthouse1.png">
-
-Desktop results look better than mobile results.
 
 <!-- Navigation bar issues -->
 ##### My Navigation Bar
@@ -191,12 +179,14 @@ The navigation section looks great on larger devices as well. Please below scree
 
 ![alt text](image-9.png)
 
-
-
 <!-- What website looks like on all devices -->
-My project fits on all screens the way I had intended. Although at first it was an issue as there was unwanted space on the side. Sean, a Tutor from Code Insititute advised that the reason for the space is the navigation width which was set to 100% and positioned to left with another 70% which added the unwanted space. I then removed the width on larger devices as the effect was affecting only them. Now there is no space, the bakground images cover the whole screen.
+My project fits on all screens the way I had intended. Although at first it was an issue as there was unwanted space on the side. After consultating the tutors, I realised that the reason for the space is the navigation width which was set to 100% and positioned to left with another 70% which added the unwanted space. I then removed the width on larger devices as the effect was affecting only them. Please see below screen.
 
 <img src="./README.md_docs/unwanted-space-home.png">
+
+Now there is no space, the background images cover the whole screen.
+
+![alt text](image-10.png)
 
 ### Validator Testing
 
@@ -221,6 +211,19 @@ I had forgotten to validate my code at the beginning, but after so many changes 
 
     <img src="README.md_docs/css-validator-error.png">
 
+<!-- Lighthouse Results -->
+* LIGHTHOUSE
+
+All images used on this project are set as background images, hence why the forms are blocking the women in the background. Just like any other background with content on top of it.
+
+<img src="./README.md_docs/lighthouse-results.png"> 
+
+
+
+<img src="README.md_docs/lighthouse1.png">
+
+Desktop results look better than mobile results.
+
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
     - In the GitHub repository, navigate to the Settings tab
@@ -233,6 +236,7 @@ I had forgotten to validate my code at the beginning, but after so many changes 
 The live link can be found here - https://hlomphosibeko.github.io/Zola-with-Yoga/
 
 ## Credits
+
 ### Content 
 * The quote used on the bookings page is taken from this site: [Tegan by yoga]https://www.teganbyoga.com/post/best-yoga-quotes
 * The terms and conditions used on the sign up page are taken from this site: [Terms and conditions](https://yogauonline.com/terms-and-conditions/)
@@ -241,7 +245,10 @@ The live link can be found here - https://hlomphosibeko.github.io/Zola-with-Yoga
 * The position of which the images on the shop page are placed is found on this website: [Grid container](https://www.shecodes.io/athena/22284-how-to-scale-images-with-different-sizes-in-a-css-grid#:~:text=If%20your%20pictures%20have%20different,resized%20to%20fit%20its%20container.)
 * Alan, a tutor at CI, assisted me with the Favicon.
 * [Navigator](https://stackoverflow.com/questions/42095405/logo-and-navigation-bar-inline#:~:text=You%20could%20also%20simply%20put,align%20to%20center%20things%20horizontally.) 
-
+* Roo, a tutor assisted with getting the shop page to have the grid look.
+* Sean, a tutor assisted with removing the space on the side of the page which was caused by the width.
+* Rebecca, a tutor helped me the issue with the background image that was applied on both CSS and HTML.
+* Moritz, a mentor assisted with the transparent background color for the welcome message and the forms.
 
 ### Media
 * The images used on this website are taken from various sites: [Yoga Images](https://www.pexels.com/search/yoga/) , [Yoga incense](https://www.pexels.com/search/incense/)
