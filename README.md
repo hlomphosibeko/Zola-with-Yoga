@@ -36,26 +36,18 @@
 
 #### The Sign Up page
 - This page has a form where customers can signup to become members of the studio.
-- A required feature is added on the form so all fields are completed in order for the the submit button to work.
-- The submit button has a defensive feature that required all fields to be completed.
+- Once the form is completed, a submit button should be clicked. This button will take the user to a 'congratulations' page which shows the signup was successful.
 - Terms of the website have been added so users are not blind sided when it comes to the product being sold.
-- Once the form is completed, a submit button should be clicked. This button will take the user to a Code Institute 'congratulations' page which shows the signup was successful. Please see below screenshots: 
-
-<img src="README.md_docs/signup-page.png"> <img src="./README.md_docs/congratulations-feature.png">
+ <img src="./README.md_docs/signup-page.png">
 
 #### The Bookings page
-- This page consists of a fieldset which requires the age of the member as well as any information regarding their health. This is to help the instructor to prepare yoga moves which are suitable for the customer's age and health.
-- The radio button forces a user to select one option, no multiple options can be selected at once.  
+- This page consists of a fieldset which requires the age of the member as well as any information regarding their health. This is to help the instructor to prepare yoga moves which are suitable for the customer's age and health. 
 - It also consists of the booking times as well as the preferred instructors and preferred settings.
-- A user cannot add instructors outside of the 5 named in the site. The user cannot add new time slots which are not on our scope.
 - Our Studio has well trained and professional instructors who are more than willing to assist our customers to have the full experience as they wish. It contains of group and private sessions, where as in a private session it is just the customer and their chosen instructor.
 - The customers may change instructors and preferred sessions as they please as the customer is the one that has to be happy at the end of every session.
 - The instructors speak 4 different languages namely: English, Chinese, French and German.
-- The 'Let's do Yoga!' button has a defensive feature that required all fields to be completed.
-- When the 'Let's do yoga!' button is clicked, the user will be taken to another screean which shows that the member can start doing yoga.
-- This button will take the user to a Code Institute 'congratulations' page which shows the signup was successful. Please see images below:
 
-<img src="README.md_docs/bookings.png"> <img src="./README.md_docs/congratulations-feature.png">
+<img src="./README.md_docs/bookings.png">
 
 ### Features Left to Implement
 * On the shop page - a style to view the prices of the goods being purchased.
@@ -68,85 +60,136 @@
 My journey through creating this website was not an easy one. I had an idea of what I wanted the website to look like, however the results were not good. I even had to restart the whole website, and went through the lessons once again just so I can have a better understanding of the elements, attributes and so forth.  
 
 <!-- Favicon -->
+
 ##### My Favicon
-The favicon gave me an issue as the files did not want to upload on my file explorer. I got the following error:
+The favicon gave me an issue as the files did not want to upload on my file explorer. The below screenshot would appear.
 
 <img src="README.md_docs/favicon-error-message.png">
 
- I then renamed the file from "favicon-32x32" to "favicon-png.png", then it worked.
+I then realised that the file name could be an issue as it would not allow the upload. I then renamed the file from "favicon-32x32" to "favicon-png.png", then it worked. On this section I used an emoji of a woman in Lotus Position which looks like a yoga position.
 
-<img src="README.md_docs/favicon-file.png">
-
-On this section I used an emoji of a woman in Lotus Position which looks like a yoga position.
-My results from Lighthouse show that less content should be used, and to reduce time spent parsing.
+![alt text](image-8.png)
 
 <!-- Home page not responding as background image -->
+
 ##### My Home Page
-At first, I wanted the booking session table to be on the home page with a background image of a woman sitting in a lotus position, where a user can book sessions with the Yoga instructors. The table was there however the background image was covering the whole screen. Rebecca, a tutor at CI, helped me notice that the image was being called on both CSS and HTML. I removed the image called on HTML.
+At first, I wanted the booking session table to be on the home page with a background image of a woman sitting in a lotus position, where a user can book sessions with the Yoga instructors. The table appeared to have a background image that was meant for the whole screen and the image below the table was not covering the whole screen. Through consultation with a tutor, I noticed that the image was being called on both CSS and HTML, hence why the home page had two images. See screen print below.
 
 <img src="README.md_docs/first-home-img.png">
 
-After removing the the image which was called on the html page, I decided to also remove the table from the home page. Now the background image is covering the whole screen and includes a welcome message for the users.
+I then removed the image which was called on the html page and also decided to remove the table from the home page. Now the background image is covering the whole screen and includes a welcome message for the users. Please see the below screenshot.
+
 <img src="README.md_docs/home-page-after.png">
 
-I had another issue of nesting the background image class and welcome message class in a div element. Which ever style I gave to the welcome message was affecting the background image.
+I had another issue of nesting the background image class and welcome message class in a div element. Which ever style I gave to the welcome message was affecting the background image. Please see result below.
 
 <img src="README.md_docs/background-image-before.png">
 
-I seperated the classes in order to style them individually, the below was the result. Sarah, a tutor at CI advised that I apply the welcome message class to just the text.
+I seperated the classes in order to style them individually. I then applied the welcome message class to just the text. The below was the result.
 
 <img src="./README.md_docs/background-image-after.png">
 
-My welcome message did not have a background at first and that would make editing difficult.
+Withought a background color, editing the welcome message on different screen sizes was difficult, as the larger the screen, the less visible it would be. Please see screen below.
 
 <img src="README.md_docs/welcome-mess-nobackground.png">
 
-My mentor, Moritz, advised that I add a background-color and make it transparent. I had also added a height, which also made it difficult for the welcome message to fit.
+After research and consultation, I added a background-color and made it transparent for a better user experience. I had also added a height, which also made it difficult for the welcome message to fit. Please see screen below.
 
 <img src="README.md_docs/welcome-height.png">
  
-He then also advised that I remove the height.
+Seeing that adding a height on the welcome message made it difficult to edit, I removed it. This made the welcome message to fit perfectly inside the border and made it easy to edit for all screen sizes. Please see screenshot below.
 
 <img src="README.md_docs/welcome-mess-now.png">
 
 
 <!-- My shop pages images-->
+
 ##### My Shop Page
-I could not get my images to fit in a screen without showing ugly spaces.
+The below screen shows what the shop screen looked before I added the correct styling. The ugly spaces make the page look unappealing.
 
 <img src="./README.md_docs/shop-page-before.png">
 
-I had used grid to style the images, but they were not performing accordingly. A tutor from CI, Roo, advised me to use this site: [CSS Grid](https://medium.com/@Kamran1819G/responsive-masonry-image-gallery-using-a-css-grid-1a1f2711eae7).
-Now my shop page looks better:
+I had used grid to style the images, but they were not performing accordingly. By using the following site, I managed to beautify the images also the positioning: [CSS Grid](https://medium.com/@Kamran1819G/responsive-masonry-image-gallery-using-a-css-grid-1a1f2711eae7). The below screenshot shows what the page looks like now.
 
 <img src="./README.md_docs/shop-page-now.png">
+
+<!-- Forms on signup and bookings pages-->
+
+##### My Signup Page
+
+- A required feature is added on the form so all fields are completed in order for the the submit button to work.
+- The submit button has a defensive feature that requires all fields to be completed. The below screenshot has a pop up error that requests the user to fill the required sections.
+
+![alt text](image.png)
+
+- When the email inserted does not have the correct symbols for an email, the below error will pop up. This is how the user will see that they have inserted something incorrectly.
+
+![alt text](image-1.png)
+
+- A checkbox should be checked once the terms and conditions have been read and understood by the user. Below is a screen shot of the terms.
+
+![alt text](image-2.png)
+
+- Once the form is completed, a submit button should be clicked. This button will take the user to a Code Institute 'congratulations' page which shows the signup was successful. Please see below screenshot: 
+
+<img src="./README.md_docs/congratulations-feature.png">
+
+##### My Bookings Page 
+The below screenshot shows the drop down where members would have to select their age group.
+
+![alt text](image-3.png)
+
+- The radio button forces a user to select one option, no multiple options can be selected at once. The below screenshot shows a selected answer to the health question. If the answer is yes, members would have to complete the below textarea to specify what the health issue is to help the instructor to prepare suitable exercises.
+
+![alt text](image-4.png)
+
+- A user cannot add instructors outside of the 5 names in the site. The user cannot add new time slots which are not on our scope. Below is the screenshot of the table where users can book their sessions.
+
+![alt text](image-5.png)
+
+- The 'Let's do Yoga!' button has a defensive feature that requires all fields to be completed. Please see screen shot below.
+
+![alt text](image-6.png)
+
+- When the 'Let's do yoga!' button is clicked, the user will be taken to another screen which shows that the member can start doing yoga.
+- For now this button will take the user to a Code Institute 'congratulations' page which shows the signup was successful. Please see screenshot below.
+
+![alt text](image-7.png)
  
 <!-- Lighthouse Results -->
-<img src="README.md_docs/Lighthouse-results.png"> 
+##### My Lighthouse Results
 
 All images used on this project are set as background images, hence why the forms are blocking the women in the background. Just like any other background with content on top of it.
 
-<img src="README.md_docs/Lighthouse1.png">
+<img src="./README.md_docs/lighthouse-results.png"> 
+
+
+
+<img src="README.md_docs/lighthouse1.png">
 
 Desktop results look better than mobile results.
 
 <!-- Navigation bar issues -->
 ##### My Navigation Bar
-The navigation bar gave me problems a couple of times. I used this site: [Navigator](https://stackoverflow.com/questions/42095405/logo-and-navigation-bar-inline#:~:text=You%20could%20also%20simply%20put,align%20to%20center%20things%20horizontally.) However along the way it still didn't perform the way I had anticipated, especially the toggle section for small devices. I went throught the Love Running Walkthrough Project and found an easier way of doing it.
+The navigation bar gave me problems a couple of times. The menu, slogan and logo could not be positioned inline for larger screens. Please see below screenshot. 
 
 <img src="README.md_docs/navbar-before.png">
 
-For small devices I wanted to use the toggle effect as shown on the Love Running Walkthrough Project. My toggle icon would not apear, instead the nav bar would go under the logo. On html, the width was set to 100% which was pushing the hamburger down. 
+For small devices I wanted to use the toggle effect as shown on the Love Running Walkthrough Project. My toggle icon would not appear, instead the nav bar would go under the logo. On html, the width was set to 100% which was pushing the hamburger icon down. 
 
 <img src="README.md_docs/toggle-issue1.png"> 
 
-I had wrapped the logo, nav-bar and toggle within an anchor which caused the menu not to drop down when burger icon is clicked. Roo, a tutor, helped me with this one.
+I had wrapped the logo, nav-bar and toggle within an anchor which caused the menu not to drop down when burger icon is clicked. 
 
 <img src="README.md_docs/toggle-issue2.png">
 
-I then removed the nav-bar and toggle html from  the anchor. This resulted in the navigation bar menu to drop down when burger icon was clicked. The menu now appears below navigation section.
+After research and consultation, I then removed the nav-bar and toggle html from the anchor. This resulted in the navigation bar menu to drop down when burger icon was clicked. The menu now appears below the navigation section when hamburger icon is clicked. The below screenshot shows the result.
 
 <img src="README.md_docs/toggle-result.png">
+
+The navigation section looks great on larger devices as well. Please below screenshot below.
+
+![alt text](image-9.png)
 
 
 
@@ -197,6 +240,7 @@ The live link can be found here - https://hlomphosibeko.github.io/Zola-with-Yoga
 * The style for the submit button found on the sign up and bookings page was found in this site: [Signup W3School](https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3)
 * The position of which the images on the shop page are placed is found on this website: [Grid container](https://www.shecodes.io/athena/22284-how-to-scale-images-with-different-sizes-in-a-css-grid#:~:text=If%20your%20pictures%20have%20different,resized%20to%20fit%20its%20container.)
 * Alan, a tutor at CI, assisted me with the Favicon.
+* [Navigator](https://stackoverflow.com/questions/42095405/logo-and-navigation-bar-inline#:~:text=You%20could%20also%20simply%20put,align%20to%20center%20things%20horizontally.) 
 
 
 ### Media
