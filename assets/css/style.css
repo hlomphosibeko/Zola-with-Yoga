@@ -121,11 +121,12 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     padding: 5px;
-    width: 100%;
-    height: calc(100vh - 102px);
+   
 }
 
 .grid-item {
+    width: 100%;
+    height: 25vh;
     object-fit: cover;
 }
 
