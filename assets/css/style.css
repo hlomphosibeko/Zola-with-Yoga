@@ -94,7 +94,7 @@ h1 {
 /* Hero Image */
 
 .home-image {
-    background-image: url('../images/pexels-cottonbro-4056535.jpg');
+    background-image: url('../images/pexels-cottonbro-resize.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100vh - 102px);
@@ -140,7 +140,7 @@ h1 {
     height: calc(100vh - 102px);
     padding: 5px;
     border-radius: 0 50px;
-    background-image: url(../images/pexels-ketut-subiyanto-4473612.jpg);
+    background-image: url('../images/pexels-ketut-subiyanto-resized.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -196,7 +196,7 @@ h1 {
 
 /* Yoga Appointment Bookings */
 #operating-times {
-    background-image: url('../images/pexels-elly-fairytale-3823086.jpg');
+    background-image: url('../images/pexels-elly-fairytale-resized.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -392,7 +392,7 @@ footer>a {
     .nav-bar {
         letter-spacing: 0;
         font-size: 1rem;
-        padding-right: 30px;
+        padding-right: 20px;
     }
     
     /* Home page */
