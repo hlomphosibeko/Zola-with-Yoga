@@ -53,7 +53,7 @@
                             <option value="50s">50-55</option>
                         </select>
                         <br><br>
-                        <label for="health" placeholder="health" value="health">Health Issues?</label>
+                        <label for="health-issues">Health Issues?</label>
                         
                         <br>
                         <label for="yes">Yes</label>
@@ -62,7 +62,7 @@
                         <label for="no">No</label>
                         <input type="radio" id="no" name="decider" value="no" required>                       
                         <br><br>
-                        <label for="reason" placeholder="reason" value="reason">If yes, please specify:</label>
+                        <label for="reason">If yes, please specify:</label>
                        
                         <br>
                         <textarea id="reason" rows="3" cols="30" name="reason"></textarea>
@@ -79,7 +79,7 @@
                     </tr>
                     <tr>
                         <td class="column">
-                            <select id="time-choice" name="time-choice" required>
+                            <select id="time-choice" name="time-choice">
                                 <option value="16h00">16:00-17:00</option>
                                 <option value="18h00">17:30-18:30</option>
                                 <option value="19h00">19:00-20:00</option>
@@ -88,7 +88,7 @@
                             </select>
                         </td>
                         <td class="column">
-                            <select id="weekday" name="weekday" required>
+                            <select id="weekday" name="weekday">
                                 <option value="monday">Monday</option>
                                 <option value="tuesday">Tuesday</option>
                                 <option value="wednesday">Wednesday</option>
@@ -97,18 +97,18 @@
                             </select>
                         </td>
                         <td class="column">
-                            <select id="instructors" name="instructor" required>
-                                <option value="choose instructor">Linda Williams</option>
-                                <option value="choose instructor">Bratt Jolie</option>
-                                <option value="choose instructor">Kylie Herrman</option>
-                                <option value="choose instructor">Jin Kim</option>
-                                <option value="choose instructor">Jerry Simson</option>
+                            <select id="instructors" name="instructor">
+                                <option value="Linda Williams">Linda Williams</option>
+                                <option value="Bratt Jolie">Bratt Jolie</option>
+                                <option value="Kylie Herrman">Kylie Herrman</option>
+                                <option value="Jin Kim">Jin Kim</option>
+                                <option value="Jerry Simson">Jerry Simson</option>
                             </select>
                         </td>
                         <td class="column">
-                            <select id="preferrence" name="preferrence" required>
-                                <option value="preferrence">Private Session</option>
-                                <option value="preferrence">Group Session</option>
+                            <select id="preferrence" name="preferrence">
+                                <option value="private session">Private Session</option>
+                                <option value="group session">Group Session</option>
                             </select>
                         </td>
                     </tr>

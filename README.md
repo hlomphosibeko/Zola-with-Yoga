@@ -189,27 +189,41 @@ Now there is no space, the background images cover the whole screen.
 ![alt text](image-10.png)
 
 ### Validator Testing
+The below are the validator tests for CSS, Lighthouse and HTML.
 
-I had forgotten to validate my code at the beginning, but after so many changes to the codes, the below is my results:
 * HTML
-    - Errors were found on the bookings page:
+    <!-- Bookings page -->
+    - A couple of errors were found on the bookings page as seen on the screenshot below. 
+    - Not all input attributes are allowed on the label element.
+    - Some option elements don't require a 'required' attribute
 
     <img src="README.md_docs/html-error.png">
 
-    - No errors were found.
+    - After removing the required attribute from the bookings page, I still had one error which shows that a non-hidden form control should have an ID.
+
+    ![alt text](image-11.png)
+
     - A warning was found: Section lacks heading. A heading is supposed to be added on the section element or turn the section into a div rather [Validator W3 html](https://validator.w3.org/nu/#textarea)
 
     <img src="README.md_docs/image-4.png">
 
-* CSS
-    - No errors were found [Validator W3 css](https://jigsaw.w3.org/css-validator/validator)
-    
-    <img src="README.md_docs/image-5.png">
+    - I removed the section element as I realised it had no purpose.
+    - As for the other pages no errors were found.
 
+    ![alt text](image-12.png)
+
+* CSS
+    <!-- Styling -->
     - There was an error found on CSS with the nav-bar.
-    <img src="README.md_docs/css-validator-check.png">
+    
 
     <img src="README.md_docs/css-validator-error.png">
+
+    - After carefully fixing the errors, there appears to be no errors to be found [Validator W3 css](https://jigsaw.w3.org/css-validator/validator). 
+
+    <img src="README.md_docs/image-5.png">
+
+
 
 <!-- Lighthouse Results -->
 * LIGHTHOUSE
