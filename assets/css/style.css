@@ -141,7 +141,7 @@ h1 {
     height: calc(100vh - 102px);
     padding: 5px;
     border-radius: 0 50px;
-    background-image: url('../images/pexels-ketut-subiyanto-resized.jpg');
+    background-image: url('../images/signup-image.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -197,7 +197,7 @@ h1 {
 
 /* Yoga Appointment Bookings */
 #operating-times {
-    background-image: url('../images/pexels-elly-fairytale-resized.jpg');
+    background-image: url('../images/bookings-image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
