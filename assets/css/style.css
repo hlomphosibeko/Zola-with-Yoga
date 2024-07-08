@@ -94,7 +94,7 @@ h1 {
 /* Hero Image */
 
 .home-image {
-    background-image: url('../images/pexels-cottonbro-resize.jpg');
+    background-image: url('../images/hero-image.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100vh - 102px);
