@@ -49,7 +49,7 @@
 <img src="./README.md_docs/bookings-feature.png">
 
 ### Features Left to Implement
-* I would like to  implement a feature that would allow a user to view the prices of the purchaseable goods.
+* I would like to  implement a feature that would allow a user to view the prices of the purchaseable goods by just hovering over an image.
 * When booking a session, customers should be able to choose a preferred language from the 4 spoken by the instructors.
 
 ## Testing
@@ -229,8 +229,15 @@ The below are the validator tests for CSS, Lighthouse and HTML.
     <!-- Lighthouse results -->
     - All images used on this project are set as background images, hence why the forms are blocking the women in the background. Just like any other background with content on top of it.
     - The Zola with Yoga site could not pass all the lighthouse tests. That was due to having large images, which were taking up a lot of space which caused uploading of the site to take long. Please see below screenshot:
+    
+    <img src="./README.md_docs/lighthouse-results-validator.png">
 
-    <img src="./README.md_docs/lighthouse-results-validator.png"> 
+        + Performance = 41%
+        + Accessibility = 96%
+        + Best Practice = 100%
+        + SEO = 100%
+
+    
     <img src="./README.md_docs/lighthouse-failed-result-validator.png">
 
     - After consultation and research, I managed to reduce the images used on the site which definitely gave incredible results on the Lighthouse Results:
@@ -242,7 +249,8 @@ The below are the validator tests for CSS, Lighthouse and HTML.
     <img src="./README.md_docs/lighthouse-final-result-validation.png">
 
 ### Unfixed Bugs
-
+* On the signup form, the first and last name areas should only accept alphabets/ text. However it also accepts numbers. In future, I would like to exclude the possibility that user can put numbers.
+ 
 
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
@@ -256,7 +264,6 @@ The below are the validator tests for CSS, Lighthouse and HTML.
 The live link can be found here - https://hlomphosibeko.github.io/Zola-with-Yoga/
 
 ## Credits
-
 ### Content 
 * The quote used on the bookings page is taken from this site: [Tegan by yoga]https://www.teganbyoga.com/post/best-yoga-quotes
 * The terms and conditions used on the sign up page are taken from this site: [Terms and conditions](https://yogauonline.com/terms-and-conditions/)
@@ -275,3 +282,4 @@ The live link can be found here - https://hlomphosibeko.github.io/Zola-with-Yoga
 * The logo image used is taken from this site: [Yoga Logo](https://www.canva.com/design/play?type=TAB7AVEOUWQ&category=tACZCvjI6mE&locale=de-DE)
 * Oisin, a Tutor from Code Institute provided a guide on how to compress images, which was found on this site: [TinyJPG](https://tinyjpg.com/)
 * The favicon was found on this site: [Favicon](https://favicon.io/emoji-favicons/woman-in-lotus-position)
+* Roman, a tutor at CI, advised that I can resize images with a default setting for Windows devices.
