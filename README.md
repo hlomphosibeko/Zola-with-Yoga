@@ -2,7 +2,7 @@
 
 *Zola with Yoga* is an online yoga studio where you can relax, unwind and reset after a long day of work / school and feel refreshed for the next day. **Zola**, a word that derives from a South African language (Zulu) meaning *'calm'* or *'peacful'*, puts an emphasis on the energy the site will bring to the customers. People are so busy in such a way that they no longer have time to go to fitness studios. This site hopes to help people interested in doing yoga but do not have time to travel to the actual studio. This site also hopes to accomplish a more calm and joyful society without having to pay more for transport. The target market is young and old adults, who wish to live a positive and stressless life. Customers who wish to keep fit but cannot afford to go to a studio. Customers can also purchase Yoga equipment on the website's online shop. 
 
-<img src="README.md_docs/responsive-screens.png">
+![Responsive screens](README.md_docs/responsive-screens.png)
 
 ## Features
 
@@ -13,32 +13,33 @@
 - By clicking the on the logo, a user can easily return to the home page.
 - The slogan lets the user know that they can do yoga at their homes. Please see image below:
 
-<img src="README.md_docs/nav-bar-feature.png">
+![Nav bar features](README.md_docs/nav-bar-feature.png)
 
 #### The Home page image
 - The home page image is put as background image. The image shows a woman sitting in a position that shows she is doing yoga. She is located in her living room. Which illustrates the setting of the sessions.
 - On top of the background image is a welcome message for users to have an idea of what exactly the site entails.
 - The home page welcomes a user to the yoga studio which is held online. The user will be expected to read the welcome message then sign up for yoga if they are interested. Please see below image:
 
-<img src="README.md_docs/hero-image-feature.png">
+![Hero image feature](README.md_docs/hero-image-feature.png)
 
 #### The Footer
 - The footer shows the user the accessible social media platforms to visit in order to connect with us and to get more information about the site.
 - On Instagram and Tiktok, that is where the users can have a glimpse of what the website contains with short videos of what takes place at each session. On WhatsApp that is where they can connect with employees and ask questions. Please see image below:
 
-<img src="README.md_docs/footer-feature.png">
+![Footer feature](README.md_docs/footer-feature.png)
 
 #### The Shop page
 - This page consists of a variety of products and equipments which users can purchase so they are prepared for yoga.
 - On this section, users do not have to be members in order to purchase the goods. Please see image below:
 
-<img src="README.md_docs/shopping-feature.png">
+![Shopping feature](README.md_docs/shopping-feature.png)
 
 #### The Sign Up page
 - This page has a form where customers can signup to become members of the studio.
 - Once the form is completed, a submit button should be clicked. This button will take the user to a 'congratulations' page which shows the signup was successful.
 - Terms of the website have been added so users are not blind sided when it comes to the product being sold.
- <img src="./README.md_docs/signup-feature.png">
+
+![Signup feature](./README.md_docs/signup-feature.png)
 
 #### The Bookings page
 - This page consists of a fieldset which requires the age of the member as well as any information regarding their health. This is to help the instructor to prepare yoga moves which are suitable for the customer's age and health. 
@@ -46,7 +47,60 @@
 - Our Studio has well trained and professional instructors who are more than willing to assist our customers to have the full experience as they wish. It contains of group and private sessions, where as in a private session it is just the customer and their chosen instructor.
 - The instructors speak 4 different languages namely: English, Chinese, French and German.
 
-<img src="./README.md_docs/bookings-feature.png">
+![Bookings feature](./README.md_docs/bookings-feature.png)
+
+<!-- Forms on signup and bookings pages with defensive design-->
+#### My Signup Page Feature
+
+- A required feature is added on the form so all fields are completed in order for the the submit button to work.
+- The submit button has a defensive feature that requires all fields to be completed. The below screenshot has a pop up error that requests the user to fill the required sections.
+
+<!-- Input fields -->
+![Incomplete form](./README.md_docs/uncompleted-form-testing.png)
+
+- When the email inserted does not have the correct symbols for an email, the defensive design inserted will cause the below error to pop up. This is how the user will see that they have inserted something incorrectly.
+
+![Incorrect email](./README.md_docs/incorrect-email-testing.png)
+
+<!-- Checkbox -->
+- When the checkbox has not been clicked, the form will not be submitted, as seen on the screenprint below:
+
+![Unchecked checkbox](./README.md_docs/unchecked-checkbox-testing.png)
+
+- A checkbox should be checked once the terms and conditions have been read and understood by the user. Below is a screen shot of the terms.
+
+![Checked checkbox](./README.md_docs/checked-checkbox-testing.png)
+
+- Once the form is completed, a submit button should be clicked. This button will take the user to a Code Institute 'congratulations' page which shows the signup was successful. Please see below screenshot: 
+
+![Congratulations signup](./README.md_docs/congratulations-testing.png)
+
+<!-- Book a Session -->
+#### My Bookings Page Feature
+<!-- Age -->
+- The below screenshot shows the drop down where members would have to select their age group.
+
+![Age group](./README.md_docs/age-group-testing.png)
+
+<!-- Health issues -->
+- The radio button used on Zola with Yoga site forces a user to select one option, no multiple options can be selected at once. The below screenshot shows a selected answer to the health question. If the answer is yes, members would be required to complete the below textarea to specify what the health issue is to help the instructor to prepare suitable exercises.
+
+![Health response](./README.md_docs/response-testing.png)
+
+<!-- Yoga Instructors-->
+- A user cannot add instructors outside of the 5 names in the Zola with Yoga site. The user cannot add new time slots which are not on our scope. Below is the screenshot of the table where users can book their sessions.
+
+![Booking sessions](./README.md_docs/booking-sessions-testing.png)
+
+- The 'Let's do Yoga!' button has a defensive feature that requires all fields to be completed. Please see screen shot below.
+
+![Radio response](./README.md_docs/radio-response-testing.png)
+
+<!-- Submit and do Yoga with us! -->
+- When the 'Let's do yoga!' button is clicked, the user will be taken to another screen which shows that the member can start doing yoga.
+- For now this button will take the user to a Code Institute 'congratulations' page which shows the signup was successful. Please see screenshot below.
+
+![Congratulations booking](./README.md_docs/successful-booking-testing.png)
 
 ### Features Left to Implement
 * I would like to  implement a feature that would allow a user to view the prices of the purchaseable goods by just hovering over an image.
@@ -61,139 +115,87 @@ I have conducted manual testing, defensive design testing, HTML and CSS validati
 #### My Favicon Bug Fixing
 - The favicon gave me an issue as the files did not want to upload on my file explorer. The below screenshot would appear.
 
-<img src="README.md_docs/favicon-error-message-testing.png">
+![Favicon error message](README.md_docs/favicon-error-message-testing.png)
 
 - I then realised that the file name could be an issue as it would not allow the upload. I then renamed the file from "favicon-32x32" to "favicon-png.png", then it worked. On this section I used an emoji of a woman in Lotus Position which looks like a yoga position.
 
-<img src="./README.md_docs/favicon-current-testing.png">
+![Favicon current](./README.md_docs/favicon-current-testing.png)
 
 
 #### My Home Page Bug Fixing
 - At first, I wanted the booking session table to be on the home page with a background image of a woman sitting in a lotus position, where a user can book sessions with the Yoga instructors. The table appeared to have a background image that was meant for the whole screen and the image below the table was not covering the whole screen. Through consultation with a tutor, I noticed that the image was being called on both CSS and HTML, hence why the home page had two images. See screen print below.
 
-<img src="README.md_docs/first-home-img-testing.png">
+![First home image](README.md_docs/first-home-img-testing.png)
 
 - I then removed the image which was called on the html page and also decided to remove the table from the home page. Now the background image is covering the whole screen and includes a welcome message for the users. Please see the below screenshot.
 
-<img src="README.md_docs/home-page-after-testing.png">
+![Home page after](README.md_docs/home-page-after-testing.png)
 
 - I had another issue of nesting the background image class and welcome message class in a div element. Which ever style I gave to the welcome message was affecting the background image. Please see result below.
 
 <!-- Background image -->
-<img src="README.md_docs/background-image-before-testing.png">
+![Background image before](README.md_docs/background-image-before-testing.png)
 
 - I seperated the classes in order to style them individually. I then applied the welcome message class to just the text. The below was the result.
 
-<img src="./README.md_docs/background-image-after-testing.png">
+![Background image after](./README.md_docs/background-image-after-testing.png)
 
 - Without a background color, editing the welcome message on different screen sizes was difficult, because the larger the screen became, the less visible it would be. Please see screen below.
 
 <!-- Welcome message -->
-<img src="README.md_docs/welcome-mess-nobackground-testing.png">
+![Welcome message without background](README.md_docs/welcome-mess-nobackground-testing.png)
 
 - After research and consultation, I added a background-color and made it transparent for a better user experience. I had also added a height to the background-color, which made it difficult for the welcome message to fit. Please see screen below.
 
-<img src="README.md_docs/welcome-mess-withheight-testing.png">
+![Welcome message with height styling](README.md_docs/welcome-mess-withheight-testing.png)
  
 - Seeing that adding a height on the welcome message made it difficult to edit on difference screen sizes, I then removed it. This made the welcome message of Zola with Yoga to fit perfectly inside the border and made it easy to edit for all screen sizes. Please see screenshot below.
 
-<img src="README.md_docs/welcome-mess-now-testing.png">
+![Welcome message after](README.md_docs/welcome-mess-now-testing.png)
 
 
 <!-- My shop pages images-->
 #### My Shop Page Bug Fixing
 The below screen shows what the shop screen looked before I added the correct styling. The ugly spaces make the page look unappealing.
 
-<img src="./README.md_docs/shop-page-before-testing.png">
+![Shop page before](./README.md_docs/shop-page-before-testing.png)
 
 I had used grid to style the images, but they were not performing accordingly. By using the following site, I managed to beautify the images also the positioning: [CSS Grid](https://medium.com/@Kamran1819G/responsive-masonry-image-gallery-using-a-css-grid-1a1f2711eae7). The below screenshot shows what the page looks like now.
 
-<img src="./README.md_docs/shop-page-now-testing.png">
+![Shop page now](./README.md_docs/shop-page-now-testing.png)
 
-<!-- Forms on signup and bookings pages with defensive design-->
-#### My Signup Page Bug Fixing
-
-- A required feature is added on the form so all fields are completed in order for the the submit button to work.
-- The submit button has a defensive feature that requires all fields to be completed. The below screenshot has a pop up error that requests the user to fill the required sections.
-
-<!-- Input fields -->
-<img src="./README.md_docs/uncompleted-form-testing.png">
-
-- When the email inserted does not have the correct symbols for an email, the defensive design inserted will cause the below error to pop up. This is how the user will see that they have inserted something incorrectly.
-
-<img src="./README.md_docs/incorrect-email-testing.png">
-
-<!-- Checkbox -->
-- When the checkbox has not been clicked, the form will not be submitted, as seen on the screenprint below:
-<img src="./README.md_docs/unchecked-checkbox-testing.png">
-
-- A checkbox should be checked once the terms and conditions have been read and understood by the user. Below is a screen shot of the terms.
-
-<img src="./README.md_docs/checked-checkbox-testing.png">
-
-- Once the form is completed, a submit button should be clicked. This button will take the user to a Code Institute 'congratulations' page which shows the signup was successful. Please see below screenshot: 
-
-<img src="./README.md_docs/congratulations-testing.png">
-
-<!-- Book a Session -->
-#### My Bookings Page Bug Fixing
-<!-- Age -->
-- The below screenshot shows the drop down where members would have to select their age group.
-
-<img src="./README.md_docs/age-group-testing.png">
-
-<!-- Health issues -->
-- The radio button used on Zola with Yoga site forces a user to select one option, no multiple options can be selected at once. The below screenshot shows a selected answer to the health question. If the answer is yes, members would be required to complete the below textarea to specify what the health issue is to help the instructor to prepare suitable exercises.
-
-<img src="./README.md_docs/response-testing.png">
-
-<!-- Yoga Instructors-->
-- A user cannot add instructors outside of the 5 names in the Zola with Yoga site. The user cannot add new time slots which are not on our scope. Below is the screenshot of the table where users can book their sessions.
-
-<img src="./README.md_docs/booking-sessions-testing.png">
-
-- The 'Let's do Yoga!' button has a defensive feature that requires all fields to be completed. Please see screen shot below.
-
-<img src="./README.md_docs/radio-response-testing.png">
-
-<!-- Submit and do Yoga with us! -->
-- When the 'Let's do yoga!' button is clicked, the user will be taken to another screen which shows that the member can start doing yoga.
-- For now this button will take the user to a Code Institute 'congratulations' page which shows the signup was successful. Please see screenshot below.
-
-<img src="./README.md_docs/successful-booking-testing.png">
- 
 
 <!-- Navigation bar issues -->
 #### My Navigation Bar Bug Fixing
 - The navigation bar gave me problems a couple of times. The menu, slogan and logo could not be positioned inline for larger screens. Please see below screenshot. 
 
-<img src="README.md_docs/navbar-before-testing.png">
+![Navbar before](README.md_docs/navbar-before-testing.png)
 
 - For small devices I wanted to use the toggle effect as shown on the Love Running Walkthrough Project. My toggle icon would not appear, instead the nav bar would go under the logo. On html, the width was set to 100% which was pushing the hamburger icon down. 
 
-<img src="README.md_docs/toggle-issue1-testing.png"> 
+![Toggle issue 1](README.md_docs/toggle-issue1-testing.png)
 
 - I had wrapped the logo, nav-bar and toggle within an anchor which caused the menu not to drop down when burger icon is clicked. 
 
-<img src="README.md_docs/toggle-issue2-testing.png">
+![Toggle issue 2](README.md_docs/toggle-issue2-testing.png)
 
 - After research and consultation, I then removed the nav-bar and toggle html from the anchor. This resulted in the navigation bar menu to drop down when burger icon was clicked. The menu of Zola with Yoga now appears below the navigation section when hamburger icon is clicked. The below screenshot shows the result.
 
-<img src="README.md_docs/toggle-result-testing.png">
+![Toggle results](README.md_docs/toggle-result-testing.png)
 
 - The navigation section looks great on larger devices as well. Please see screenshot below.
 
-<img src="./README.md_docs/navigation-menu-testing.png">
+![Navigation menu](./README.md_docs/navigation-menu-testing.png)
 
 <!-- What website looks like on all devices -->
 #### Background Images Bug Fixing
 - My project fits on all screens the way I had intended. Although at first it was an issue as there was unwanted space on the side. After consultating the tutors, I realised that the reason for the space is the navigation width which was set to 100% and positioned to left with another 70% which added the unwanted space. I then removed the width on larger devices as the effect was affecting only them. Please see below screen.
 
-<img src="./README.md_docs/unwanted-space-home-testing.png">
+![Unwanted space](./README.md_docs/unwanted-space-home-testing.png)
 
 - Now there is no space, the background images cover the whole screen.
 
-<img src="./README.md_docs/fitting-4by4-testing.png">
+![Fitted screen](./README.md_docs/fitting-4by4-testing.png)
 
 ### Validator Testing
 The below are the validator tests for CSS, Lighthouse and HTML.
@@ -204,41 +206,46 @@ The below are the validator tests for CSS, Lighthouse and HTML.
     - Five of the errors were referring to bookings table where member's personal details are needed.
     - Some fields of the form should not have a 'required' attribute. Please see screenprint below:    
 
-    <img src="README.md_docs/html-error-validation.png">
+    ![HTML error](README.md_docs/html-error-validation.png)
 
-    - After removing the required attribute from the bookings page, I still had one error which shows that a non-hidden form control should have an ID.
+    - The one last error was referring to the label element that did not have an input element on the bookings form. Labels and inputs go together. Please see screen shot below:
 
-    <img src="./README.md_docs/form-error-validation.png">
+    ![Form error](./README.md_docs/form-error-validation.png)
+
+    - After consultation I then changed the label to a paragraph, which illuminated the error. Please see below screen shot which shows that there are no longer errors on HTML:
+
+    ![No error on HTML](./README.md_docs/clear-errors-html-validation.png)
 
     ##### Warnings
     - A warning was found: Section lacks heading. A heading is supposed to be added on the section element or turn the section into a div rather [Validator W3 html](https://validator.w3.org/nu/#textarea)
 
-    <img src="README.md_docs/warning1-validation.png">
+    ![Warning 1](README.md_docs/warning1-validation.png)
+
+    - HTML is now clear of errors and warnings.
 
 * CSS
     <!-- Styling -->
     - An error on the nav bar referring to adding space in between the letters. A pixel unit should have been added in order for the spacing to take action. Please see screenprint below:
     
-    <img src="README.md_docs/css-error-validation.png">
+    ![CSS error](README.md_docs/css-error-validation.png)
 
-    - After carefully fixing the errors, there appears to be no errors to be found [Validator W3 css](https://jigsaw.w3.org/css-validator/validator). 
+    - After carefully fixing the errors, there appears to be no errors remaining [Validator W3 css](https://jigsaw.w3.org/css-validator/validator). 
 
-    <img src="README.md_docs/css-noerrors-validation.png">
+    ![CSS clear of errors](README.md_docs/css-noerrors-validation.png)
 
 * Lighthouse
     <!-- Lighthouse results -->
     - All images used on this project are set as background images, hence why the forms are blocking the women in the background. Just like any other background with content on top of it.
     - The Zola with Yoga site could not pass all the lighthouse tests. That was due to having large images, which were taking up a lot of space which caused uploading of the site to take long. Please see below screenshot:
     
-    <img src="./README.md_docs/lighthouse-results-validator.png">
+    ![Lighthouse results](./README.md_docs/lighthouse-results-validator.png)
 
         + Performance = 41%
         + Accessibility = 96%
         + Best Practice = 100%
         + SEO = 100%
 
-    
-    <img src="./README.md_docs/lighthouse-failed-result-validator.png">
+    ![Lighthouse failed results](./README.md_docs/lighthouse-failed-result-validator.png)
 
     - After consultation and research, I managed to reduce the images used on the site which definitely gave incredible results on the Lighthouse Results:
         + Performance = 92%
@@ -246,7 +253,8 @@ The below are the validator tests for CSS, Lighthouse and HTML.
         + Best Practice = 100%
         + SEO = 100%
     - Please also see below screenshot taken for one of the pages:
-    <img src="./README.md_docs/lighthouse-final-result-validation.png">
+
+    ![Lighthouse final result](./README.md_docs/lighthouse-final-result-validation.png)
 
 ### Unfixed Bugs
 * On the signup form, the first and last name areas should only accept alphabets/ text. However it also accepts numbers. In future, I would like to exclude the possibility that user can put numbers.
