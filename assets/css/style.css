@@ -147,8 +147,7 @@ h1 {
 }
 
 .sign-me-up {
-    padding: 10%;
-    padding-left: 10%;
+    padding: 20px;
     font-size: 1rem;
     text-align: center;
 }
@@ -159,7 +158,7 @@ h1 {
     color: #201d1d;
     font-size: 1rem;
     font-weight: bold;
-    margin: 5%;
+    margin: 10px;
     padding: 10px;
 }
 
@@ -410,9 +409,7 @@ footer>a {
     #signup-4-yoga {
         height: 100vh;
     }
-    .my-signup-form {
-        padding: 20px;
-    }
+
     /* Shopping items */
     .grid-item {
         height: 50vh;

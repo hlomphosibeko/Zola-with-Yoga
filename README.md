@@ -250,7 +250,7 @@ The below are the validator tests for CSS, Lighthouse and HTML.
 
 ### Unfixed Bugs
 * On the signup form, the first and last name areas should only accept alphabets/ text. However it also accepts numbers. In future, I would like to exclude the possibility that user can put numbers.
- 
+  
 
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
