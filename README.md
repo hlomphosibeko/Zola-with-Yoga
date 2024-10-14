@@ -216,6 +216,15 @@ The below are the validator tests for CSS, Lighthouse and HTML.
 
     ![No error on HTML](./README.md_docs/clear-errors-html-validation.png)
 
+    - On the return of my project, there appears to be an error on HTML.
+    - The error refers incorrect labeling of elements. Please see image below:
+
+    ![Label error](./README.md_docs/label-error.png)
+
+    - The error is no longer there. The element is changed to avoid errors. Please see image below:
+
+    ![No bookings error](./README.md_docs/no-error-bookings-html.png)
+
     ##### Warnings
     - A warning was found: Section lacks heading. A heading is supposed to be added on the section element or turn the section into a div rather [Validator W3 html](https://validator.w3.org/nu/#textarea)
 
