@@ -211,6 +211,7 @@ fieldset {
     padding: 10px;
     width: 30%;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 
 .yoga-booking-session {
@@ -222,20 +223,15 @@ fieldset {
     background-color: rgba(121, 121, 129, 0.5);
 }
 
-/*table {
-    border-collapse: collapse;
-    width: 50%;
+.table-of-times {
+    padding-left: 10px;
+    font-weight: bold;
 }
-
-.table-header {
-    font-size: small;
-}*/
-
 .yogapose-quote {
     width: 80%;
     background-color: rgba(121, 121, 129, 0.5);
     border-radius: 15px;
-    color: #000000;
+    color: white;
     padding: 1rem;    
     margin: 20px;
 }
