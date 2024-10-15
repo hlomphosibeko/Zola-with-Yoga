@@ -277,6 +277,15 @@ The below are the validator tests for CSS, Lighthouse and HTML.
     - Some images were blurr which resulted to a fail. After replacing those images with others, the below is the final result:
 
     ![Lighthouse shopping page](./README.md_docs/lighthouse-shopping.png)
+    
+    - After removing the overlapping content, the results on Lighthouse are as follows:
+        + Performance = 98%
+        + Accessibility = 95%
+        + Best Practice = 100%
+        + SEO = 100%
+
+    ![Lighthouse bookings page](./README.md_docs/lighthouse-bookings.png)
+    
 
 ### Unfixed Bugs
 * On the signup form, the first and last name areas should only accept alphabets/ text. However it also accepts numbers. In future, I would like to exclude the possibility that user can put numbers.
