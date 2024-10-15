@@ -53,7 +53,7 @@
                             <option value="50s">50-55</option>
                         </select>
                         <br><br>
-                        <label for="health-issues">Health Issues?</label>
+                        <p>Health Issues?</p>
                         
                         <br>
                         <label for="yes">Yes</label>
@@ -70,49 +70,39 @@
                 </fieldset>
                 <br>
                 <div>
-                <table>
-                    <tr class="table-header">
-                        <th>Times</th>
-                        <th>Days</th>
-                        <th>Instructor</th>
-                        <th>Session</th>
-                    </tr>
-                    <tr>
-                        <td class="column">
-                            <select id="time-choice" name="time-choice">
-                                <option value="16h00">16:00-17:00</option>
-                                <option value="18h00">17:30-18:30</option>
-                                <option value="19h00">19:00-20:00</option>
-                                <option value="21h00">20:30-21:30</option>
-                                <option value="22h00">22:00-23:00</option>
-                            </select>
-                        </td>
-                        <td class="column">
-                            <select id="weekday" name="weekday">
-                                <option value="monday">Monday</option>
-                                <option value="tuesday">Tuesday</option>
-                                <option value="wednesday">Wednesday</option>
-                                <option value="thursday">Thursday</option>
-                                <option value="friday">Friday</option>
-                            </select>
-                        </td>
-                        <td class="column">
-                            <select id="instructors" name="instructor">
-                                <option value="Linda Williams">Linda Williams</option>
-                                <option value="Bratt Jolie">Bratt Jolie</option>
-                                <option value="Kylie Herrman">Kylie Herrman</option>
-                                <option value="Jin Kim">Jin Kim</option>
-                                <option value="Jerry Simson">Jerry Simson</option>
-                            </select>
-                        </td>
-                        <td class="column">
-                            <select id="preferrence" name="preferrence">
-                                <option value="private session">Private Session</option>
-                                <option value="group session">Group Session</option>
-                            </select>
-                        </td>
-                    </tr>
-                </table>
+                    <label for="time">Time</label>
+                    <select id="time-choice" name="time-choice">
+                        <option value="16h00">16:00-17:00</option>
+                        <option value="18h00">17:30-18:30</option>
+                        <option value="19h00">19:00-20:00</option>
+                        <option value="21h00">20:30-21:30</option>
+                        <option value="22h00">22:00-23:00</option>
+                    </select>
+                    <br>
+                    <label for="days">Days</label>
+                    <select id="weekday" name="weekday">
+                        <option value="monday">Monday</option>
+                        <option value="tuesday">Tuesday</option>
+                        <option value="wednesday">Wednesday</option>
+                        <option value="thursday">Thursday</option>
+                        <option value="friday">Friday</option>
+                    </select>
+                    <br>
+                    <label for="instructors">Instructors</label>
+                    <select id="instructors" name="instructor">
+                        <option value="Linda Williams">Linda Williams</option>
+                        <option value="Bratt Jolie">Bratt Jolie</option>
+                        <option value="Kylie Herrman">Kylie Herrman</option>
+                        <option value="Jin Kim">Jin Kim</option>
+                        <option value="Jerry Simson">Jerry Simson</option>
+                    </select>
+                    <br>
+                    <label for="sessions">Sessions</label>
+                    <select id="preferrence" name="preferrence">
+                        <option value="private session">Private Session</option>
+                        <option value="group session">Group Session</option>
+                    </select>
+                
                 <br>
                 <input class="button" type="submit" value="Let's do Yoga!">
             </div>

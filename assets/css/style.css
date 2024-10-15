@@ -222,9 +222,14 @@ fieldset {
     background-color: rgba(121, 121, 129, 0.5);
 }
 
-table {
+/*table {
     border-collapse: collapse;
+    width: 50%;
 }
+
+.table-header {
+    font-size: small;
+}*/
 
 .yogapose-quote {
     width: 80%;
