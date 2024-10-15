@@ -197,6 +197,15 @@ I had used grid to style the images, but they were not performing accordingly. B
 
 ![Fitted screen](./README.md_docs/fitting-4by4-testing.png)
 
+#### Bookings Page Bug Fixing
+- On small devices, the table on Bookings page was overlapping which resulted to a fail. Please see image below:
+
+![Overlapping table](./README.md_docs/overlapping-table.png)
+
+- After consultation, I removed the table and displayed the elements as they are. The elements now appear vertically below one another which illiminates overlapping. Please see image below:
+
+![Elements appear vertically](./README.md_docs/vertical-elements.png)
+
 ### Validator Testing
 The below are the validator tests for CSS, Lighthouse and HTML.
 
@@ -216,7 +225,7 @@ The below are the validator tests for CSS, Lighthouse and HTML.
 
     ![No error on HTML](./README.md_docs/clear-errors-html-validation.png)
 
-    - On the return of my project, there appears to be an error on HTML.
+    - There appeared to be an error on HTML which resulted my website wiith a fail.
     - The error refers incorrect labeling of elements. Please see image below:
 
     ![Label error](./README.md_docs/label-error.png)
@@ -264,6 +273,10 @@ The below are the validator tests for CSS, Lighthouse and HTML.
     - Please also see below screenshot taken for one of the pages:
 
     ![Lighthouse final result](./README.md_docs/lighthouse-final-result-validation.png)
+
+    - Some images were blurr which resulted to a fail. After replacing those images with others, the below is the final result:
+
+    ![Lighthouse shopping page](./README.md_docs/lighthouse-shopping.png)
 
 ### Unfixed Bugs
 * On the signup form, the first and last name areas should only accept alphabets/ text. However it also accepts numbers. In future, I would like to exclude the possibility that user can put numbers.
