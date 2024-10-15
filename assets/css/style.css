@@ -227,6 +227,10 @@ fieldset {
     padding-left: 10px;
     font-weight: bold;
 }
+
+.button {
+    margin-top: 5px;
+}
 .yogapose-quote {
     width: 80%;
     background-color: rgba(121, 121, 129, 0.5);
@@ -341,22 +345,20 @@ footer>a {
         font-size: 1.5rem;
     }
 
-    th {
-        font-size: 1rem;
-    }
-
-    table {
-        margin: 20px;
-    }
-
     #operating-times {
         margin: 10px 5px 0 5px;
         padding: 10px;
         overflow: hidden;
+        font-size: 1.5rem;
     }
 
     .yoga-booking-session {
         font-size: 1.5rem;
+    }
+
+    .table-of-times {
+        padding-left: 10px;
+        font-weight: bold;
     }
 
     /* Footer */
