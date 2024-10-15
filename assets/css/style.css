@@ -128,7 +128,7 @@ h1 {
     width: 100%;
     height: 25vh;
     object-fit: cover;
-    image-rendering: pixelated;
+
 }
 
 .grid-item:hover {
